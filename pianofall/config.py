@@ -15,10 +15,23 @@ from typing import Optional
 _DEFAULT_BACKEND_ENC = "aHR0cHM6Ly9hcHAubWlkaWFuby5jb20="
 
 
+def _find_repo_root() -> Path:
+    """Dynamically discover the repository root directory."""
+    current = Path(__file__).resolve().parent
+    while current.parent != current:
+        if (current / "pyproject.toml").exists() or (current / ".git").exists() or (current / "midis").exists():
+            return current
+        current = current.parent
+    cwd = Path.cwd()
+    if (cwd / "pyproject.toml").exists() or (cwd / ".git").exists() or (cwd / "midis").exists():
+        return cwd
+    return Path(__file__).resolve().parent.parent
+
+
 @dataclass
 class Config:
     # ── Workspace Directories ─────────────────────────────────────────────────
-    base_dir: Path = field(default_factory=lambda: Path(__file__).resolve().parent.parent.parent)
+    base_dir: Path = field(default_factory=_find_repo_root)
     midi_dir: Path = field(init=False)
     output_dir: Path = field(init=False)
     data_dir: Path = field(init=False)

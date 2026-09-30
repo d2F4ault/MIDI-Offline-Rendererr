@@ -32,16 +32,19 @@ def start_screen_recorder(
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     if platform.system() == "Linux":
+        disp_target = display if "." in display else f"{display}.0"
         input_args = [
             "-f", "x11grab",
+            "-draw_mouse", "0",
             "-video_size", f"{width}x{height}",
             "-framerate", str(fps),
-            "-i", f"{display}.0",
+            "-i", disp_target,
         ]
     elif platform.system() == "Windows":
         # Windows fallback for local development/testing
         input_args = [
             "-f", "gdigrab",
+            "-draw_mouse", "0",
             "-framerate", str(fps),
             "-video_size", f"{width}x{height}",
             "-i", "desktop",
@@ -109,7 +112,14 @@ def stop_screen_recorder(proc: subprocess.Popen, timeout: float = 25.0) -> int:
     try:
         return proc.wait(timeout=timeout)
     except subprocess.TimeoutExpired:
-        logger.warning(f"FFmpeg did not exit within {timeout}s; terminating...")
+        logger.warning(f"FFmpeg did not exit within {timeout}s; attempting interrupt...")
+        try:
+            import signal
+            proc.send_signal(signal.SIGINT)
+            return proc.wait(timeout=10)
+        except Exception:
+            pass
+        logger.warning("Terminating FFmpeg...")
         proc.terminate()
         try:
             return proc.wait(timeout=10)

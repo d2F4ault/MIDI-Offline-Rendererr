@@ -42,23 +42,22 @@ pianofall/
 │   └── Handel_HWV425.mid       # Sample starter piece (Air in E major)
 ├── outputs/                    # Output archive for finished visualizations
 │   └── README.md
-├── src/
-│   └── pianofall/
-│       ├── cli.py              # CLI entry point (render-batch, queue, inspect)
-│       ├── config.py           # Configuration management and env overrides
-│       ├── core/
-│       │   ├── backend.py      # Canvas visualizer DOM automation and event sync
-│       │   ├── browser.py      # Xvfb and Chromium lifecycle manager
-│       │   ├── recorder.py     # FFmpeg screen capture subprocess controller
-│       │   └── postprocess.py  # Precise duration probing and libx264 mastering pass
-│       ├── queue/
-│       │   ├── manager.py      # Candidate selection and duration filtering
-│       │   ├── ledger.py       # State tracking and ledger serialization
-│       │   └── downloader.py   # Public domain classical piece downloader
-│       └── utils/
-│           ├── logging.py      # Clean structured console logging
-│           ├── system.py       # CPU, memory, and binary dependency diagnostics
-│           └── midi_info.py    # Robust MIDI duration probe with SMF fallback
+├── pianofall/                  # Core package
+│   ├── cli.py                  # CLI entry point (render-batch, queue, inspect)
+│   ├── config.py               # Configuration management and env overrides
+│   ├── core/
+│   │   ├── backend.py          # Canvas visualizer DOM automation and event sync
+│   │   ├── browser.py          # Xvfb and Chromium lifecycle manager
+│   │   ├── recorder.py         # FFmpeg screen capture subprocess controller
+│   │   └── postprocess.py      # Precise duration probing and libx264 mastering pass
+│   ├── queue/
+│   │   ├── manager.py          # Candidate selection and duration filtering
+│   │   ├── ledger.py           # State tracking and ledger serialization
+│   │   └── downloader.py       # Public domain classical piece downloader
+│   └── utils/
+│       ├── logging.py          # Clean structured console logging
+│       ├── system.py           # CPU, memory, and binary dependency diagnostics
+│       └── midi_info.py        # Robust MIDI duration probe with SMF fallback
 ├── tests/                      # Comprehensive unit test suite
 ├── ARCHITECTURE.md             # Technical architecture and design choices
 ├── requirements.txt            # Runtime dependencies

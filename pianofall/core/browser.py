@@ -25,13 +25,15 @@ def start_xvfb(display: str, width: int, height: int, depth: int = 24) -> Option
         logger.info(f"Host OS is {platform.system()}; skipping Xvfb initialization.")
         return None
 
-    disp_num = display.lstrip(":")
+    disp_num = display.lstrip(":").split(".")[0]
+    canonical_display = f":{disp_num}"
+    os.makedirs("/tmp/.X11-unix", exist_ok=True)
     sock_path = Path(f"/tmp/.X11-unix/X{disp_num}")
 
-    # Terminate any leftover Xvfb process on this display
+    # Terminate any leftover Xvfb process on this display and clean stale socket
     try:
         subprocess.run(
-            ["pkill", "-f", f"Xvfb {display}"],
+            ["pkill", "-9", "-f", f"Xvfb {canonical_display}"],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
             timeout=5,
@@ -39,11 +41,17 @@ def start_xvfb(display: str, width: int, height: int, depth: int = 24) -> Option
     except Exception:
         pass
 
-    time.sleep(0.2)
+    if sock_path.exists():
+        try:
+            sock_path.unlink(missing_ok=True)
+        except Exception:
+            pass
 
-    logger.info(f"Starting Xvfb display on {display} ({width}x{height}x{depth})...")
+    time.sleep(0.3)
+
+    logger.info(f"Starting Xvfb display on {canonical_display} ({width}x{height}x{depth})...")
     proc = subprocess.Popen(
-        ["Xvfb", display, "-screen", "0", f"{width}x{height}x{depth}", "-nolisten", "tcp"],
+        ["Xvfb", canonical_display, "-screen", "0", f"{width}x{height}x{depth}", "-ac", "-nolisten", "tcp"],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )
@@ -77,8 +85,8 @@ def start_xvfb(display: str, width: int, height: int, depth: int = 24) -> Option
             pass
         raise RuntimeError(f"Xvfb failed to start on display {display}:\n{err}")
 
-    os.environ["DISPLAY"] = display
-    logger.info(f"Xvfb successfully bound to DISPLAY={display}")
+    os.environ["DISPLAY"] = canonical_display
+    logger.info(f"Xvfb successfully bound to DISPLAY={canonical_display}")
     return proc
 
 

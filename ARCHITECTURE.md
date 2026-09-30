@@ -66,5 +66,5 @@ flowchart TD
 
 ### E. Open-Source Legitimacy & Privacy
 * **Abstraction**: The project is packaged and presented as a generic, reusable offline piano visualizer pipeline.
-* **Encapsulation**: The target web visualizer URL is obfuscated via base64 in default settings and configurable via the `RENDER_BACKEND_URL` environment variable. DOM selectors and UI handling are isolated within `src/pianofall/core/backend.py`.
+* **Encapsulation**: The target web visualizer URL is obfuscated via base64 in default settings and configurable via the `RENDER_BACKEND_URL` environment variable. DOM selectors and UI handling are isolated within `pianofall/core/backend.py`.
 * **Clean Commits**: Automated git commits use `[skip ci]` to prevent recursive workflow triggers and include standard author metadata (`github-actions[bot]`).

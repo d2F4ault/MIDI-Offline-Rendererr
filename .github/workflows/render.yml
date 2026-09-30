@@ -54,6 +54,7 @@ jobs:
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq ffmpeg xvfb
           ffmpeg -version | head -n 1
           which Xvfb
+          echo "Display: ${DISPLAY:-not-set}"
 
       - name: Cache Playwright Chromium browser
         id: cache-playwright
@@ -66,8 +67,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -e .
+          # Verify package is importable from any directory
+          python -c "import pianofall; print('pianofall package OK:', pianofall.__version__)"
 
-      - name: Install Playwright Chromium & dependencies
+      - name: Install Playwright Chromium & system OS dependencies
         run: |
           python -m playwright install --with-deps chromium
 
@@ -88,7 +92,7 @@ jobs:
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: diagnostic-screenshots
+          name: diagnostic-screenshots-${{ github.run_id }}
           path: data/debug_*.png
           if-no-files-found: ignore
 
@@ -97,25 +101,29 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          
+
           # Stage new outputs and ledger updates
           git add outputs/ data/
-          
+
           if git diff --staged --quiet; then
             echo "No new videos or ledger updates to commit."
           else
             # Verify no staged MP4 exceeds GitHub's 100MB file limit
-            OVERSIZED=$(find outputs/ -type f -name "*.mp4" -size +95M)
+            OVERSIZED=$(find outputs/ -type f -name "*.mp4" -size +95M 2>/dev/null || true)
             if [ -n "$OVERSIZED" ]; then
-              echo "Error: Output file exceeds 95MB limit:"
+              echo "ERROR: Output file exceeds 95MB limit — cannot push to git LFS-free repo:"
               echo "$OVERSIZED"
               exit 1
             fi
-            
+
             git commit -m "chore(render): automated visualization batch [skip ci]"
             BRANCH="${GITHUB_REF_NAME:-main}"
             git fetch origin "$BRANCH"
-            git rebase "origin/$BRANCH" || (git rebase --abort && exit 1)
+            # Use merge fallback if rebase conflicts (safe for bot commits)
+            git rebase "origin/$BRANCH" || {
+              git rebase --abort
+              git merge --no-edit "origin/$BRANCH"
+            }
             git push origin "$BRANCH"
             echo "Successfully pushed batch outputs to $BRANCH."
           fi

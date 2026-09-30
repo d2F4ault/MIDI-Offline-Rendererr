@@ -1,7 +1,9 @@
-# Core dependencies
+# Core runtime dependencies for PianoFall
+# Install with:  pip install -r requirements.txt
+# Then:          python -m playwright install --with-deps chromium
+
 playwright>=1.40.0
 mido>=1.3.0
-pyyaml>=6.0.0
 
-# Development and testing
+# Dev / testing (also installed on CI)
 pytest>=8.0.0

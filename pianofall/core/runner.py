@@ -21,6 +21,7 @@ from ..utils.midi_info import get_midi_duration
 from .backend import (
     AC_CAPTURE_SCRIPT,
     capture_debug_screenshot,
+    dismiss_popups,
     hide_navigation_overlays,
     trigger_playback,
     upload_midi_file,
@@ -76,9 +77,17 @@ async def render_single_midi(
     await page.bring_to_front()
     await page.add_init_script(AC_CAPTURE_SCRIPT)
 
-    # Use RAM disk (/dev/shm) on Linux if available, else temp directory
-    shm_dir = Path("/dev/shm") if Path("/dev/shm").is_dir() else Path(tempfile.gettempdir())
-    raw_capture_path = shm_dir / f"{midi_path.stem}_raw_capture.mp4"
+    # Use RAM disk (/dev/shm) on Linux if available with sufficient space, else temp directory
+    shm_candidate = Path("/dev/shm")
+    scratch_dir = Path(tempfile.gettempdir())
+    if shm_candidate.is_dir():
+        try:
+            free_bytes = shutil.disk_usage(shm_candidate).free
+            if free_bytes > 500 * 1024 * 1024:  # At least 500MB free in RAM
+                scratch_dir = shm_candidate
+        except Exception:
+            pass
+    raw_capture_path = scratch_dir / f"{midi_path.stem}_raw_capture.mp4"
     if raw_capture_path.exists():
         raw_capture_path.unlink(missing_ok=True)
 
@@ -88,6 +97,7 @@ async def render_single_midi(
     try:
         logger.info("  Loading canvas visualizer web app...")
         await page.goto(cfg.app_url, wait_until="domcontentloaded", timeout=60_000)
+        await dismiss_popups(page)
         await wait_canvas_ready(page)
 
         logger.info("  Injecting MIDI file into player...")
@@ -228,6 +238,10 @@ async def execute_batch(
             # Pre-grant Web MIDI permissions so no modal interrupts rendering
             await context.grant_permissions(["midi", "midi-sysex"], origin=cfg.app_url)
 
+            # Keep an anchor blank page open so closing render tabs never causes Chromium to exit
+            anchor_page = await context.new_page()
+            await anchor_page.goto("about:blank")
+
             try:
                 total = len(midi_files)
                 for idx, midi_path in enumerate(midi_files, start=1):
@@ -246,6 +260,10 @@ async def execute_batch(
                         logger.error(f"Error processing '{midi_path.name}':\n{traceback.format_exc()}")
                         logger.info("Containing error and proceeding to next piece...")
             finally:
+                try:
+                    await anchor_page.close()
+                except Exception:
+                    pass
                 await context.close()
                 await browser.close()
     finally:

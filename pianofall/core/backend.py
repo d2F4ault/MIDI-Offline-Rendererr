@@ -80,9 +80,37 @@ async def upload_midi_file(page, midi_path: Path, timeout_sec: float = 180.0) ->
         await wait_canvas_ready(page)
     finally:
         try:
-            page.remove_listener("console", on_console)
+            if hasattr(page, "remove_listener"):
+                page.remove_listener("console", on_console)
+            elif hasattr(page, "off"):
+                page.off("console", on_console)
         except Exception:
             pass
+
+
+async def dismiss_popups(page) -> None:
+    """Dismiss any modal dialogs, cookie notices, or consent banners."""
+    try:
+        await page.evaluate(
+            """() => {
+                const dismiss = [
+                    'button[aria-label="Close"]',
+                    'button:has-text("OK")',
+                    'button:has-text("Got it")',
+                    'button:has-text("Dismiss")',
+                    '.modal-close',
+                    '.cookie-notice button',
+                ];
+                for (const sel of dismiss) {
+                    try {
+                        const el = document.querySelector(sel);
+                        if (el && el.offsetParent !== null) el.click();
+                    } catch(e) {}
+                }
+            }"""
+        )
+    except Exception:
+        pass
 
 
 async def hide_navigation_overlays(page, viewport_w: int, viewport_h: int) -> None:
