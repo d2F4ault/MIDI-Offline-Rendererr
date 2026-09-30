@@ -40,7 +40,7 @@ logger = logging.getLogger("pianofall.runner")
 
 
 async def render_single_midi(
-    context,
+    page,
     midi_path: Path,
     output_dir: Path,
     cfg: Config,
@@ -50,7 +50,7 @@ async def render_single_midi(
 ) -> Tuple[Path, float, int]:
     """
     Render a single MIDI file into a silent, 60 FPS 1920x1200 MP4.
-    Reuses the persistent browser context to maintain window dimensions.
+    Reuses the single persistent browser page to prevent any tab bars or chrome.
     """
     duration_s = get_midi_duration(midi_path)
     if not duration_s or duration_s <= 0.1:
@@ -72,10 +72,6 @@ async def render_single_midi(
         f"  Target duration: {fmt_hms(duration_s)} ({duration_s:.2f}s) | "
         f"{cfg.viewport_w}x{cfg.viewport_h} @ {cfg.output_fps} FPS | Silent output"
     )
-
-    page = await context.new_page()
-    await page.bring_to_front()
-    await page.add_init_script(AC_CAPTURE_SCRIPT)
 
     # Use RAM disk (/dev/shm) on Linux if available with sufficient space, else temp directory
     shm_candidate = Path("/dev/shm")
@@ -192,11 +188,6 @@ async def render_single_midi(
     finally:
         if raw_capture_path.exists():
             raw_capture_path.unlink(missing_ok=True)
-        try:
-            if not page.is_closed():
-                await page.close()
-        except Exception:
-            pass
 
 
 async def execute_batch(
@@ -238,16 +229,18 @@ async def execute_batch(
             # Pre-grant Web MIDI permissions so no modal interrupts rendering
             await context.grant_permissions(["midi", "midi-sysex"], origin=cfg.app_url)
 
-            # Keep an anchor blank page open so closing render tabs never causes Chromium to exit
-            anchor_page = await context.new_page()
-            await anchor_page.goto("about:blank")
+            # Single persistent page: ensures Chromium in kiosk mode has exactly 1 tab,
+            # so Chromium NEVER renders a tab strip or browser chrome across the top.
+            page = await context.new_page()
+            await page.bring_to_front()
+            await page.add_init_script(AC_CAPTURE_SCRIPT)
 
             try:
                 total = len(midi_files)
                 for idx, midi_path in enumerate(midi_files, start=1):
                     try:
                         res = await render_single_midi(
-                            context=context,
+                            page=page,
                             midi_path=midi_path,
                             output_dir=output_dir,
                             cfg=cfg,
@@ -261,7 +254,8 @@ async def execute_batch(
                         logger.info("Containing error and proceeding to next piece...")
             finally:
                 try:
-                    await anchor_page.close()
+                    if not page.is_closed():
+                        await page.close()
                 except Exception:
                     pass
                 await context.close()

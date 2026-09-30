@@ -17,17 +17,30 @@ logger = logging.getLogger("pianofall.backend")
 AC_CAPTURE_SCRIPT = r"""
 (() => {
   const NativeAC = window.AudioContext || window.webkitAudioContext;
-  if (!NativeAC) return;
-  window.__acInstances = [];
-  function PatchedAC(...args) {
-    const inst = new NativeAC(...args);
-    window.__acInstances.push(inst);
-    return inst;
+  if (NativeAC) {
+    window.__acInstances = [];
+    function PatchedAC(...args) {
+      const inst = new NativeAC(...args);
+      window.__acInstances.push(inst);
+      return inst;
+    }
+    PatchedAC.prototype = NativeAC.prototype;
+    try { Object.setPrototypeOf(PatchedAC, NativeAC); } catch (e) {}
+    window.AudioContext = PatchedAC;
+    window.webkitAudioContext = PatchedAC;
   }
-  PatchedAC.prototype = NativeAC.prototype;
-  try { Object.setPrototypeOf(PatchedAC, NativeAC); } catch (e) {}
-  window.AudioContext = PatchedAC;
-  window.webkitAudioContext = PatchedAC;
+
+  // Prevent browser scrollbars, bars, or margins from shifting canvas content
+  window.addEventListener('DOMContentLoaded', () => {
+    try {
+      const style = document.createElement('style');
+      style.textContent = `
+        *::-webkit-scrollbar { display: none !important; width: 0 !important; height: 0 !important; }
+        html, body { overflow: hidden !important; margin: 0 !important; padding: 0 !important; width: 100% !important; height: 100% !important; }
+      `;
+      document.head.appendChild(style);
+    } catch(e) {}
+  });
 })();
 """
 
@@ -138,12 +151,19 @@ async def hide_navigation_overlays(page, viewport_w: int, viewport_h: int) -> No
               'button[aria-label="Open/Close zoom menu"]',
               'button[aria-label="Open settings"]',
               'button[aria-label="Open menu"]',
+              'header',
+              '.top-bar',
+              'nav',
             ];
             for (const sel of hideSelectors) {
               document.querySelectorAll(sel).forEach(el => {
                 el.style.display = 'none';
               });
             }
+            document.documentElement.style.overflow = 'hidden';
+            document.body.style.overflow = 'hidden';
+            document.body.style.margin = '0';
+            document.body.style.padding = '0';
         }"""
     )
     logger.debug("UI overlays and menu controls hidden.")

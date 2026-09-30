@@ -49,7 +49,7 @@ class Config:
     xvfb_display: str = ":99"
 
     # ── Framerate & Video Timing ──────────────────────────────────────────────
-    capture_fps: int = 30  # Real-time capture framerate (halves CPU load on runner)
+    capture_fps: int = 60  # Live-capture at true 60 fps (avoids frame-doubling artifacts)
     output_fps: int = 60   # Target output framerate after retiming pass
     start_delay_s: float = 2.5  # Upstream lookahead buffer delay
 
@@ -57,12 +57,12 @@ class Config:
     ffmpeg_bin: str = "ffmpeg"
     ffprobe_bin: str = "ffprobe"
     capture_preset: str = "ultrafast"  # Minimizes CPU impact during live screen scraping
-    capture_crf: int = 15              # Pristine intermediate capture
-    render_preset: str = "fast"        # High-quality offline retime pass (all cores free)
-    render_crf: int = 16               # Studio-grade visually transparent CRF
+    capture_crf: int = 12              # Near-lossless intermediate capture
+    render_preset: str = "slow"        # Best rate-distortion; all cores free during mastering pass
+    render_crf: int = 14               # Visually transparent — sharp fine note details
     render_pix_fmt: str = "yuv420p"
-    max_bitrate: str = "35M"           # High dynamic range bitrate ceiling
-    buffer_size: str = "70M"
+    max_bitrate: str = "50M"           # High ceiling for dense, fast-moving scenes
+    buffer_size: str = "100M"
 
     # ── Execution Budget & Batch Control ──────────────────────────────────────
     max_videos_per_run: int = 1        # Keep runs safe and predictable within time budget

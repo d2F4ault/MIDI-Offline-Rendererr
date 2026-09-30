@@ -78,8 +78,14 @@ def retime_and_master_video(
         "-crf", str(crf),
         "-pix_fmt", "yuv420p",
         "-profile:v", "high",
+        "-color_range", "tv",
+        "-colorspace", "bt709",
+        "-color_primaries", "bt709",
+        "-color_trc", "bt709",
         "-maxrate", max_bitrate,
         "-bufsize", buffer_size,
+        # Advanced x264 tuning: UMH motion search, 9-level subpel, RD trellis, 60-frame lookahead
+        "-x264-params", "me=umh:subme=9:trellis=2:rc-lookahead=60:b-adapt=2:deblock=1,1",
         "-movflags", "+faststart",
         str(dst_final),
     ]

@@ -124,4 +124,10 @@ def get_chromium_args(viewport_w: int, viewport_h: int) -> list[str]:
         "--window-position=0,0",
         f"--window-size={viewport_w},{viewport_h}",
         "--kiosk",
+        "--hide-scrollbars",
+        "--disable-infobars",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--disable-notifications",
+        "--disable-features=Translate,OptimizationHints,MediaRouter",
     ]
