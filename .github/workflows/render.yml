@@ -84,6 +84,7 @@ jobs:
           INPUT_MAX_VIDEOS: ${{ inputs.max_videos || '1' }}
           INPUT_TEST_SECONDS: ${{ inputs.test_seconds }}
           INPUT_PIECE_NAME: ${{ inputs.piece_name }}
+          INPUT_FORCE_REBUILD: ${{ inputs.force_rebuild || 'false' }}
           PYTHONUNBUFFERED: '1'
         run: |
           python -m pianofall render-batch

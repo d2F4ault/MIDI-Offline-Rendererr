@@ -35,54 +35,68 @@ def select_candidates(
     target_piece: Optional[str] = None,
     allow_exceed_duration: bool = False,
     auto_fetch_preview: bool = True,
+    force_rebuild: bool = False,
 ) -> List[Tuple[Path, float]]:
     """
-    Select eligible, unprocessed candidate MIDI files for rendering.
-    Filters out already processed files and quarantined failures.
+    Select eligible candidate MIDI files for rendering.
+    Filters out already processed files unless force_rebuild is enabled.
     """
     processed_set = load_processed_set(processed_log)
     quarantined_set, _ = load_failed_map(failed_log)
 
     all_files = discover_available_midis(midi_dir)
 
-    # If no MIDIs exist locally, optionally fetch public domain preview pieces
-    if not all_files and auto_fetch_preview:
-        logger.info("Local MIDI directory is empty; fetching public classical preview collection...")
-        all_files = download_public_preview_midis(midi_dir)
+    def _evaluate(files: List[Path]) -> List[Tuple[Path, float]]:
+        res = []
+        for path in files:
+            stem = path.stem
+            fname = path.name
 
-    candidates: List[Tuple[Path, float]] = []
+            # Check explicit targeting
+            if target_piece:
+                if target_piece.lower() not in fname.lower() and target_piece.lower() not in stem.lower():
+                    continue
+            elif not force_rebuild:
+                if fname in processed_set or stem in processed_set:
+                    continue
+                if fname in quarantined_set or stem in quarantined_set:
+                    continue
 
-    for path in all_files:
-        stem = path.stem
-        fname = path.name
-
-        # Check explicit targeting
-        if target_piece:
-            if target_piece.lower() not in fname.lower() and target_piece.lower() not in stem.lower():
+            dur = get_midi_duration(path)
+            if dur is None or dur <= 0.1:
+                logger.warning(f"Skipping {fname}: could not read valid duration.")
                 continue
-        else:
-            if fname in processed_set or stem in processed_set:
+
+            if not allow_exceed_duration and not target_piece and dur > max_duration_seconds:
+                logger.debug(f"Skipping {fname}: duration ({dur:.1f}s) exceeds max limit ({max_duration_seconds}s).")
                 continue
-            if fname in quarantined_set or stem in quarantined_set:
-                continue
 
-        dur = get_midi_duration(path)
-        if dur is None or dur <= 0.1:
-            logger.warning(f"Skipping {fname}: could not read valid duration.")
-            continue
+            res.append((path, dur))
+        return res
 
-        if not allow_exceed_duration and dur > max_duration_seconds:
-            logger.debug(f"Skipping {fname}: duration ({dur:.1f}s) exceeds max limit ({max_duration_seconds}s).")
-            continue
+    candidates = _evaluate(all_files)
 
-        candidates.append((path, dur))
+    # If all local pieces have already been processed, auto-fetch new preview pieces
+    if not candidates and not target_piece and auto_fetch_preview:
+        logger.info("Local queue has no pending unprocessed pieces; checking public preview collection...")
+        new_files = download_public_preview_midis(midi_dir)
+        if new_files:
+            all_files = discover_available_midis(midi_dir)
+            candidates = _evaluate(all_files)
 
     # Sort candidates by duration ascending (shortest first gives fastest turnaround)
     candidates.sort(key=lambda x: (x[1], x[0].name.lower()))
 
     selected = candidates[:limit]
-    logger.info(
-        f"Queue evaluated: {len(all_files)} total files, {len(candidates)} eligible, "
-        f"{len(selected)} selected for this batch."
-    )
+    if candidates:
+        logger.info(
+            f"Queue evaluated: {len(all_files)} total files, {len(candidates)} eligible, "
+            f"{len(selected)} selected for this batch."
+        )
+    else:
+        logger.info(
+            f"Queue evaluated: {len(all_files)} total files, 0 eligible pending pieces. "
+            f"All existing pieces have already been rendered. "
+            f"(To re-render, enable force_rebuild or add new MIDI files to midis/)"
+        )
     return selected

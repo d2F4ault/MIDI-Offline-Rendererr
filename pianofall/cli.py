@@ -196,6 +196,10 @@ async def _run_batch_async(args: argparse.Namespace) -> int:
 
     target_piece = args.piece or (os.getenv("INPUT_PIECE_NAME") or "").strip() or None
 
+    force_rebuild = getattr(args, "force_rebuild", False)
+    if os.getenv("INPUT_FORCE_REBUILD", "").strip().lower() in ("true", "1", "yes"):
+        force_rebuild = True
+
     logger.info("=" * 60)
     logger.info("PIANOFALL AUTOMATED CPU RENDERING PIPELINE")
     logger.info("=" * 60)
@@ -203,6 +207,7 @@ async def _run_batch_async(args: argparse.Namespace) -> int:
     logger.info(f"Max piece duration  : {fmt_hms(max_dur)}")
     logger.info(f"Test duration cap   : {f'{test_sec}s' if test_sec else 'Disabled (full song)'}")
     logger.info(f"Target filter       : {target_piece or 'None (auto-queue)'}")
+    logger.info(f"Force rebuild       : {'Enabled' if force_rebuild else 'Disabled'}")
     logger.info("-" * 60)
 
     if args.dry_run:
@@ -216,9 +221,10 @@ async def _run_batch_async(args: argparse.Namespace) -> int:
             target_piece=target_piece,
             allow_exceed_duration=getattr(args, "allow_exceed_duration", False),
             auto_fetch_preview=True,
+            force_rebuild=force_rebuild,
         )
         if not candidates:
-            logger.info("No eligible unprocessed pieces found in queue.")
+            logger.info("No eligible pieces found in queue.")
             return 0
         logger.info(f"Selected {len(candidates)} piece(s) for rendering:")
         for path, dur in candidates:
@@ -244,10 +250,11 @@ async def _run_batch_async(args: argparse.Namespace) -> int:
         target_piece=target_piece,
         allow_exceed_duration=getattr(args, "allow_exceed_duration", False),
         auto_fetch_preview=True,
+        force_rebuild=force_rebuild,
     )
 
     if not candidates:
-        logger.info("No eligible unprocessed pieces found in queue. Pipeline complete.")
+        logger.info("No eligible pieces found in queue. Pipeline complete.")
         return 0
 
     files_to_render = [c[0] for c in candidates]
@@ -331,6 +338,8 @@ def build_parser() -> argparse.ArgumentParser:
                               help="Target a specific MIDI filename or substring.")
     batch_parser.add_argument("--allow-exceed-duration", action="store_true",
                               help="Allow targeted piece to exceed --max-duration cap.")
+    batch_parser.add_argument("--force", "--force-rebuild", dest="force_rebuild", action="store_true",
+                              help="Re-render pieces even if already present in processed ledger.")
     batch_parser.add_argument("--dry-run", action="store_true",
                               help="Inspect candidate selection without rendering.")
 
@@ -360,6 +369,7 @@ def main() -> int:
             test_seconds=None,
             piece=None,
             allow_exceed_duration=False,
+            force_rebuild=False,
             dry_run=False,
         ))
 
