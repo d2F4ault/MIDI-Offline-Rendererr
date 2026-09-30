@@ -24,6 +24,11 @@ ENV/
 data/debug_*.png
 debug_*.png
 
+# Rendered MP4 videos are published to GitHub Releases (up to 2 GB per file),
+# keeping the git repository clone lightweight and fast.
+outputs/**/*.mp4
+outputs/*.mp4
+
 # Playwright cache
 .cache/
 

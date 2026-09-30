@@ -15,10 +15,10 @@ Designed from the ground up for unattended execution, PianoFall operates on pure
 
 - **Automated Scheduling**: Runs autonomously twice per day (`02:00 UTC` & `14:00 UTC`) or on-demand via `workflow_dispatch`.
 - **Pure-CPU Rendering**: Highly optimized decoupled pipeline leveraging Chromium SwiftShader, Xvfb virtual displays, and multi-core `libx264` encoding.
-- **High-Definition Output**: Generates crystal-clear **1920×1200** resolution videos at genuine **60 FPS** with visual transparency (CRF 18).
+- **High-Definition Output**: Generates crystal-clear **1920×1200** resolution videos at genuine **60 FPS** with studio-grade visual transparency (**CRF 16**, up to 35 Mbps).
 - **Exact MIDI Timeline Synchronization**: Automatic duration analysis and frame retiming (`setpts`) guarantees 100% accurate 1× musical tempo without drift or jitter.
 - **Silent Output**: Audio-free (`-an`) video stream ready for video editing, accompaniment syncing, or sound-font mixing.
-- **Self-Contained Storage**: Finished videos are automatically archived inside the repository under a clean dated structure (`outputs/YYYY-MM-DD/<piece>.mp4`).
+- **GitHub Releases Storage (Up to 2 GB per file)**: Rendered videos are automatically published directly to repository **Releases** as downloadable assets. Clones remain lightweight (<10 MB) with zero repository bloat.
 - **Resilient Queue & Ledgers**: Tracks completed pieces in `data/processed.txt`, quarantines edge-case failures in `data/failed_pieces.txt`, and automatically advances past errors.
 - **Schedule Keepalive**: Built-in heartbeat mechanism ensures GitHub never auto-disables scheduled runs due to repository inactivity.
 
@@ -125,7 +125,7 @@ PianoFall can be customized via YAML configuration or environment variables:
 | **Viewport Width** | `RENDER_VIEWPORT_W` | `1920` | Canvas width in pixels |
 | **Viewport Height** | `RENDER_VIEWPORT_H` | `1200` | Canvas height in pixels |
 | **Output Framerate** | `RENDER_OUTPUT_FPS` | `60` | Target mastered video framerate |
-| **Encoding Quality** | `RENDER_CRF` | `18` | libx264 Constant Rate Factor (16–22) |
+| **Encoding Quality** | `RENDER_CRF` | `16` | libx264 Constant Rate Factor (14–20, studio quality) |
 | **Encoding Preset** | `RENDER_PRESET` | `fast` | libx264 preset (`fast`, `medium`, `slow`) |
 | **Max Batch Size** | `MAX_VIDEOS_PER_RUN` | `1` | Videos processed per scheduled run |
 | **Max Duration** | `MAX_PIECE_DURATION` | `360.0` | Maximum piece duration cap (seconds) |

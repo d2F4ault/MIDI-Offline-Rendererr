@@ -57,12 +57,12 @@ class Config:
     ffmpeg_bin: str = "ffmpeg"
     ffprobe_bin: str = "ffprobe"
     capture_preset: str = "ultrafast"  # Minimizes CPU impact during live screen scraping
-    capture_crf: int = 17
+    capture_crf: int = 15              # Pristine intermediate capture
     render_preset: str = "fast"        # High-quality offline retime pass (all cores free)
-    render_crf: int = 18               # Visually lossless CRF for piano visualizer
+    render_crf: int = 16               # Studio-grade visually transparent CRF
     render_pix_fmt: str = "yuv420p"
-    max_bitrate: str = "10M"           # Safeguard ensuring output files stay well under 100MB
-    buffer_size: str = "20M"
+    max_bitrate: str = "35M"           # High dynamic range bitrate ceiling
+    buffer_size: str = "70M"
 
     # ── Execution Budget & Batch Control ──────────────────────────────────────
     max_videos_per_run: int = 1        # Keep runs safe and predictable within time budget

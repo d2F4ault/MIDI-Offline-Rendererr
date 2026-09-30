@@ -14,7 +14,7 @@ class TestConfig(unittest.TestCase):
         self.assertEqual(cfg.viewport_h, 1200)
         self.assertEqual(cfg.output_fps, 60)
         self.assertEqual(cfg.capture_fps, 30)
-        self.assertEqual(cfg.render_crf, 18)
+        self.assertEqual(cfg.render_crf, 16)
         self.assertEqual(cfg.render_preset, "fast")
         self.assertEqual(cfg.midi_dir.name, "midis")
         self.assertEqual(cfg.output_dir.name, "outputs")

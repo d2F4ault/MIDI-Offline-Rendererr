@@ -52,12 +52,14 @@ flowchart TD
   $$\text{filter:v} = \texttt{"setpts="} + \frac{\text{target\_duration}}{\text{actual\_duration}} \times \texttt{PTS,fps=60"}$$
   This resamples the video frames smoothly and deterministically to match the original MIDI tempo at 60 FPS. If an external audio track is ever paired with the MP4, the notes strike in exact synchronization.
 
-### C. Repository Storage Strategy & File Size Management
-* **Problem**: GitHub imposes a strict **100 MB hard limit** on individual files tracked via git. Pushing any video $\ge 100\text{ MB}$ causes `git push` to fail.
-* **Solution**:
-  - Falling-notes visualizers feature a large black background with sharp vertical rectangles. The H.264 discrete cosine transform (DCT) and macroblock skip algorithms compress uniform black regions with extraordinary efficiency.
-  - At CRF 18, a typical 5-minute 1080p/1200p piano video occupies between **35 MB and 70 MB**.
-  - To guarantee that no piece ever crosses GitHub's ceiling, we enforce an upper bitrate cap (`-maxrate 10M -bufsize 20M`) and inspect all staged MP4 files before committing. If any file exceeds 95 MB, the workflow halts with a clear diagnostic instead of corrupting the git push.
+### C. Storage Strategy via GitHub Releases (2 GB Limit per Video)
+* **Problem**: Standard git repositories have a strict **100 MB hard limit** per file. Furthermore, storing binary video blobs directly inside git commits permanently bloats the `.git` database, causing repository clones to balloon to multiple gigabytes over time. External cloud buckets (S3, Cloudflare R2, Google Drive) require external credentials, paid accounts, or fragile OAuth token refreshes.
+* **Solution**: **GitHub Releases Asset Storage**:
+  - The automated workflow utilizes GitHub's native release mechanism via the official GitHub CLI (`gh release create`).
+  - **2 GB File Limit**: Release assets allow up to **2 GB per individual file**, completely eliminating the 100 MB ceiling.
+  - **Zero Git Bloat**: MP4 files are excluded from git commits via `.gitignore`. The repository clone remains tiny (<10 MB) indefinitely.
+  - **Higher Visual Quality (CRF 16)**: Free from the 100 MB restriction, encoding settings are tuned to studio-grade quality (**CRF 16**, up to 35 Mbps) for razor-sharp notes, smooth gradients, and zero compression artifacts.
+  - **Zero Secrets / Zero Setup**: Uses the built-in, automatically provisioned `GITHUB_TOKEN` with standard `contents: write` permissions. Anyone browsing the repository can download or stream videos directly from the **Releases** tab.
 
 ### D. Zero-Human-Interaction & Schedule Keepalive
 * **Scheduled Runs**: Triggered twice daily at `02:00 UTC` and `14:00 UTC` via GitHub Actions cron.

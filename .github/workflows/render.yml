@@ -96,34 +96,66 @@ jobs:
           path: data/debug_*.png
           if-no-files-found: ignore
 
-      - name: Commit and push generated videos and ledgers
+      - name: Publish rendered videos to GitHub Release
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Locate all newly rendered MP4 files
+          VIDEOS=$(find outputs/ -type f -name "*.mp4")
+          if [ -z "$VIDEOS" ]; then
+            echo "No video files found in outputs/ to publish."
+            exit 0
+          fi
+
+          echo "Found videos to publish as release assets:"
+          echo "$VIDEOS"
+
+          DATE_STR=$(date -u +'%Y.%m.%d')
+          TAG="v${DATE_STR}-${{ github.run_number }}"
+          TITLE="PianoFall Renders — ${DATE_STR} (Run #${{ github.run_number }})"
+
+          NOTES="### 🎹 PianoFall Automated Visualization Batch
+          - **Render Date**: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          - **Specifications**: 1920×1200 @ 60 FPS | H.264 CRF 16 (Studio Quality) | Silent
+          - **Architecture**: Pure CPU SwiftShader rasterization + offline libx264 mastering
+
+          #### 📦 Attached Video Assets:
+          "
+
+          for v in $VIDEOS; do
+            FNAME=$(basename "$v")
+            FSIZE=$(ls -lh "$v" | awk '{print $5}')
+            NOTES="${NOTES}
+          - **${FNAME}** (${FSIZE})"
+          done
+
+          echo "Publishing GitHub Release $TAG..."
+          gh release create "$TAG" $VIDEOS \
+            --title "$TITLE" \
+            --notes "$NOTES"
+
+          echo "Successfully published release $TAG with attached video assets."
+
+      - name: Commit and push updated ledger state
         if: always()
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Stage new outputs and ledger updates
-          git add outputs/ data/
+          # Stage ledger updates (MP4s are excluded by .gitignore and stored in Releases)
+          git add data/
 
           if git diff --staged --quiet; then
-            echo "No new videos or ledger updates to commit."
+            echo "No ledger updates to commit."
           else
-            # Verify no staged MP4 exceeds GitHub's 100MB file limit
-            OVERSIZED=$(find outputs/ -type f -name "*.mp4" -size +95M 2>/dev/null || true)
-            if [ -n "$OVERSIZED" ]; then
-              echo "ERROR: Output file exceeds 95MB limit — cannot push to git LFS-free repo:"
-              echo "$OVERSIZED"
-              exit 1
-            fi
-
-            git commit -m "chore(render): automated visualization batch [skip ci]"
+            git commit -m "chore(ledger): update render state and completion logs [skip ci]"
             BRANCH="${GITHUB_REF_NAME:-main}"
             git fetch origin "$BRANCH"
-            # Use merge fallback if rebase conflicts (safe for bot commits)
             git rebase "origin/$BRANCH" || {
               git rebase --abort
               git merge --no-edit "origin/$BRANCH"
             }
             git push origin "$BRANCH"
-            echo "Successfully pushed batch outputs to $BRANCH."
+            echo "Successfully updated ledger state on $BRANCH."
           fi
