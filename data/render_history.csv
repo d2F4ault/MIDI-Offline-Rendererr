@@ -1,1 +1,31 @@
 timestamp_utc,midi_name,duration_seconds,render_time_seconds,file_size_mb,output_path,status
+2026-10-01T11:40:08.164486+00:00,Spindler, Fritz, Wellenspiel, Op.6, krXtgqRCAvU,13.98,98.15,2.48,outputs/run_2026-10-01_113829/mp4/Spindler, Fritz, Wellenspiel, Op.6, krXtgqRCAvU.mp4,SUCCESS
+2026-10-01T11:42:49.162178+00:00,Schubert, Franz, 8 Ecossaises, D.529, jFN1prco1Sg,23.88,161.00,6.98,outputs/run_2026-10-01_113829/mp4/Schubert, Franz, 8 Ecossaises, D.529, jFN1prco1Sg.mp4,SUCCESS
+2026-10-01T11:46:12.441963+00:00,Oesten, Theodore, Goldperlen, Op.94, B0bZhzicgKI,31.03,203.28,5.36,outputs/run_2026-10-01_113829/mp4/Oesten, Theodore, Goldperlen, Op.94, B0bZhzicgKI.mp4,SUCCESS
+2026-10-01T11:49:47.592724+00:00,Beethoven, Ludwig van, Bagatelle, WoO 61a, OoLwAQrVQUY,32.50,215.15,5.64,outputs/run_2026-10-01_113829/mp4/Beethoven, Ludwig van, Bagatelle, WoO 61a, OoLwAQrVQUY.mp4,SUCCESS
+2026-10-01T11:53:37.602543+00:00,Purcell, Henry, Air in D Minor, ZT 675, MKQbysfs8HI,34.16,230.01,5.97,outputs/run_2026-10-01_113829/mp4/Purcell, Henry, Air in D Minor, ZT 675, MKQbysfs8HI.mp4,SUCCESS
+2026-10-01T11:57:24.604400+00:00,Clark, Scotson, Tarantella, OUAHlMaaLFs,34.38,227.00,6.90,outputs/run_2026-10-01_113829/mp4/Clark, Scotson, Tarantella, OUAHlMaaLFs.mp4,SUCCESS
+2026-10-01T12:01:36.930681+00:00,Kirchner, Theodor, 100 Kleine Studien, Op.71, xZAPsi_l0Zo,37.80,252.33,9.24,outputs/run_2026-10-01_113829/mp4/Kirchner, Theodor, 100 Kleine Studien, Op.71, xZAPsi_l0Zo.mp4,SUCCESS
+2026-10-01T12:05:58.072410+00:00,Sauter, Louis, Variations on _We Wish You a Merry Christmas_, QArRL0Q1_qg,38.77,261.14,12.57,outputs/run_2026-10-01_113829/mp4/Sauter, Louis, Variations on _We Wish You a Merry Christmas_, QArRL0Q1_qg.mp4,SUCCESS
+2026-10-01T12:10:15.382093+00:00,Bartók, Béla, First Term at the Piano, Sz.53, yOyZ9lVCFK0,39.21,257.31,7.64,outputs/run_2026-10-01_113829/mp4/Bartók, Béla, First Term at the Piano, Sz.53, yOyZ9lVCFK0.mp4,SUCCESS
+2026-10-01T12:14:32.760783+00:00,Zipoli, Domenico, Fughetta in E minor, s_iUHy1oD4s,39.30,257.38,8.33,outputs/run_2026-10-01_113829/mp4/Zipoli, Domenico, Fughetta in E minor, s_iUHy1oD4s.mp4,SUCCESS
+2026-10-01T12:18:55.344074+00:00,Kuliev, Ramin, Visions Fugitives, Op.6 No.3, BuKB1dB5Ql8,39.58,262.58,9.94,outputs/run_2026-10-01_113829/mp4/Kuliev, Ramin, Visions Fugitives, Op.6 No.3, BuKB1dB5Ql8.mp4,SUCCESS
+2026-10-01T12:23:24.650511+00:00,Harder, August, Hört die Lerche, sie singt_, OBWs5GIwsR8,39.59,269.31,7.26,outputs/run_2026-10-01_113829/mp4/Harder, August, Hört die Lerche, sie singt_, OBWs5GIwsR8.mp4,SUCCESS
+2026-10-01T12:27:48.015737+00:00,Lyadov, Anatoly, 3 Preludes, Op.36, eHqLwlLILXI,39.60,263.36,9.55,outputs/run_2026-10-01_113829/mp4/Lyadov, Anatoly, 3 Preludes, Op.36, eHqLwlLILXI.mp4,SUCCESS
+2026-10-01T12:32:32.108390+00:00,Handel, George Frideric, Passepied in C major, HWV 559, IKB-S0f1cg0,43.91,284.09,8.72,outputs/run_2026-10-01_113829/mp4/Handel, George Frideric, Passepied in C major, HWV 559, IKB-S0f1cg0.mp4,SUCCESS
+2026-10-01T12:37:49.648325+00:00,Mozart, Wolfgang Amadeus, Fugue in G major, K.Anh.41_375g, ix7hykPFJgI,48.92,317.54,11.94,outputs/run_2026-10-01_113829/mp4/Mozart, Wolfgang Amadeus, Fugue in G major, K.Anh.41_375g, ix7hykPFJgI.mp4,SUCCESS
+2026-10-01T12:43:07.510825+00:00,Cramer, Johann Baptist, Piano Quintet No.1, Op.60, k-EpZs6EfW0,49.22,317.86,14.48,outputs/run_2026-10-01_113829/mp4/Cramer, Johann Baptist, Piano Quintet No.1, Op.60, k-EpZs6EfW0.mp4,SUCCESS
+2026-10-01T12:48:42.538410+00:00,Gillet, Ernest, Entr_acte-gavotte, Op.13, RsZR0lKnYV0,49.99,335.03,15.17,outputs/run_2026-10-01_113829/mp4/Gillet, Ernest, Entr_acte-gavotte, Op.13, RsZR0lKnYV0.mp4,SUCCESS
+2026-10-01T12:54:14.931538+00:00,Psimikakis-Chalkokondylis, Nikolaos-Laonikos, IV, _sENFxLnbYE,49.99,332.39,13.65,outputs/run_2026-10-01_113829/mp4/Psimikakis-Chalkokondylis, Nikolaos-Laonikos, IV, _sENFxLnbYE.mp4,SUCCESS
+2026-10-01T12:59:41.650885+00:00,Tinel, Jef, Dansende muggen, i3qF6A-Jpfw,50.14,326.72,11.60,outputs/run_2026-10-01_113829/mp4/Tinel, Jef, Dansende muggen, i3qF6A-Jpfw.mp4,SUCCESS
+2026-10-01T13:05:06.768248+00:00,Handel, George Frideric, Minuet in D minor, HWV 462, Nz5QPIEwX04,50.54,325.12,9.66,outputs/run_2026-10-01_113829/mp4/Handel, George Frideric, Minuet in D minor, HWV 462, Nz5QPIEwX04.mp4,SUCCESS
+2026-10-01T13:10:50.334118+00:00,Köhler, Louis, Practical Method for the Pianoforte, Op.249, hkuXgg0T698,52.50,343.56,12.19,outputs/run_2026-10-01_113829/mp4/Köhler, Louis, Practical Method for the Pianoforte, Op.249, hkuXgg0T698.mp4,SUCCESS
+2026-10-01T13:16:58.232033+00:00,Ornstein, Leo, Memories from Childhood, SO 66, dkQDkInEp9E,57.10,367.90,10.82,outputs/run_2026-10-01_113829/mp4/Ornstein, Leo, Memories from Childhood, SO 66, dkQDkInEp9E.mp4,SUCCESS
+2026-10-01T13:23:08.815094+00:00,Campion, François, Prelude, DYx4CAZvuWQ,57.72,370.58,10.07,outputs/run_2026-10-01_113829/mp4/Campion, François, Prelude, DYx4CAZvuWQ.mp4,SUCCESS
+2026-10-01T13:29:29.566093+00:00,Scarlatti, Domenico, Keyboard Sonata in G major, K.79, CVnj7f2Ap0Y,57.84,380.75,15.79,outputs/run_2026-10-01_113829/mp4/Scarlatti, Domenico, Keyboard Sonata in G major, K.79, CVnj7f2Ap0Y.mp4,SUCCESS
+2026-10-01T13:36:16.531237+00:00,Elgar, Edward, Drakes Broughton, FtoN_0SjUq8,59.33,406.96,12.12,outputs/run_2026-10-01_113829/mp4/Elgar, Edward, Drakes Broughton, FtoN_0SjUq8.mp4,SUCCESS
+2026-10-01T13:43:19.514401+00:00,Chaminade, Cécile, Gavotte No.2, Op.121, dQYOBA9BETA,60.11,422.98,16.01,outputs/run_2026-10-01_113829/mp4/Chaminade, Cécile, Gavotte No.2, Op.121, dQYOBA9BETA.mp4,SUCCESS
+2026-10-01T13:50:28.313588+00:00,Stankovych, Tatiana, La Sorgente, WW4umF_tRIA,62.50,428.80,12.60,outputs/run_2026-10-01_113829/mp4/Stankovych, Tatiana, La Sorgente, WW4umF_tRIA.mp4,SUCCESS
+2026-10-01T13:57:16.935956+00:00,Stankovych, Tatiana, Prelude No.2, Ej-zz8Mn5lU,62.50,408.62,14.49,outputs/run_2026-10-01_113829/mp4/Stankovych, Tatiana, Prelude No.2, Ej-zz8Mn5lU.mp4,SUCCESS
+2026-10-01T14:04:25.083166+00:00,Polovinkin, Leonid, Les attraits, -2BwgC_-p_E,62.93,428.15,16.03,outputs/run_2026-10-01_113829/mp4/Polovinkin, Leonid, Les attraits, -2BwgC_-p_E.mp4,SUCCESS
+2026-10-01T14:11:32.332871+00:00,Bach, Johann Sebastian, Invention in G major, BWV 781, jVHqIK13-nk,64.86,427.25,16.10,outputs/run_2026-10-01_113829/mp4/Bach, Johann Sebastian, Invention in G major, BWV 781, jVHqIK13-nk.mp4,SUCCESS

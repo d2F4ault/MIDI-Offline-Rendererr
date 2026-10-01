@@ -1,3 +1,33 @@
 # PianoFall — Processed MIDI filenames (one per line, no extension)
 # This file prevents re-rendering already completed pieces.
 # Auto-managed by the render pipeline. Do not edit manually.
+Spindler, Fritz, Wellenspiel, Op
+Schubert, Franz, 8 Ecossaises, D
+Oesten, Theodore, Goldperlen, Op
+Beethoven, Ludwig van, Bagatelle, WoO 61a, OoLwAQrVQUY
+Purcell, Henry, Air in D Minor, ZT 675, MKQbysfs8HI
+Clark, Scotson, Tarantella, OUAHlMaaLFs
+Kirchner, Theodor, 100 Kleine Studien, Op
+Sauter, Louis, Variations on _We Wish You a Merry Christmas_, QArRL0Q1_qg
+Bartók, Béla, First Term at the Piano, Sz
+Zipoli, Domenico, Fughetta in E minor, s_iUHy1oD4s
+Kuliev, Ramin, Visions Fugitives, Op.6 No
+Harder, August, Hört die Lerche, sie singt_, OBWs5GIwsR8
+Lyadov, Anatoly, 3 Preludes, Op
+Handel, George Frideric, Passepied in C major, HWV 559, IKB-S0f1cg0
+Mozart, Wolfgang Amadeus, Fugue in G major, K.Anh
+Cramer, Johann Baptist, Piano Quintet No.1, Op
+Gillet, Ernest, Entr_acte-gavotte, Op
+Psimikakis-Chalkokondylis, Nikolaos-Laonikos, IV, _sENFxLnbYE
+Tinel, Jef, Dansende muggen, i3qF6A-Jpfw
+Handel, George Frideric, Minuet in D minor, HWV 462, Nz5QPIEwX04
+Köhler, Louis, Practical Method for the Pianoforte, Op
+Ornstein, Leo, Memories from Childhood, SO 66, dkQDkInEp9E
+Campion, François, Prelude, DYx4CAZvuWQ
+Scarlatti, Domenico, Keyboard Sonata in G major, K
+Elgar, Edward, Drakes Broughton, FtoN_0SjUq8
+Chaminade, Cécile, Gavotte No.2, Op
+Stankovych, Tatiana, La Sorgente, WW4umF_tRIA
+Stankovych, Tatiana, Prelude No
+Polovinkin, Leonid, Les attraits, -2BwgC_-p_E
+Bach, Johann Sebastian, Invention in G major, BWV 781, jVHqIK13-nk
