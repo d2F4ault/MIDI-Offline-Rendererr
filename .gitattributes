@@ -1,0 +1,11 @@
+# Set default behavior to automatically normalize line endings
+* text=auto eol=lf
+
+# Explicit binary files
+*.mid binary
+*.midi binary
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary

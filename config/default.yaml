@@ -1,0 +1,33 @@
+# ==============================================================================
+# PianoFall Default Configuration
+# ==============================================================================
+
+# Video Display and Canvas Resolution
+viewport:
+  width: 1920
+  height: 1200
+  show_all_88_keys: true
+  capture_mode: "canvas_composite"
+
+# Rendering and Timing (Deterministic Virtual Audio Clock)
+timing:
+  capture_fps: 60
+  output_fps: 60
+  start_delay_seconds: 2.5
+  align_video_to_midi_t0: false
+
+# Encoding (libx264 direct stdin image2pipe)
+encoding:
+  pipe_preset: "faster"
+  render_crf: 14
+  pixel_format: "yuv420p"
+  max_bitrate: "50M"
+  buffer_size: "100M"
+
+# Batching & Quotas
+pipeline:
+  target_videos: 30
+  clean_previous_outputs: true
+  max_piece_duration_seconds: 600.0
+  max_job_seconds: 18000.0
+  safety_margin_seconds: 900.0

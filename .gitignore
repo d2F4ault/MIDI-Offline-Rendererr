@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Intermediate render artifacts
+*_raw_capture.mp4
+*.tmp
+*.part
+/dev/shm/*
+data/debug_*.png
+debug_*.png
+
+# Playwright cache
+.cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo

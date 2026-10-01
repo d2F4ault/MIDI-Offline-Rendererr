@@ -1,0 +1,48 @@
+name: Continuous Integration & Verification
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.11', '3.12']
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+          pip install pytest
+
+      # No PYTHONPATH needed: package now lives at repo root (pianofall/).
+      # Python discovers it because the working directory IS the repo root.
+      - name: Run unit test suite
+        run: |
+          pytest tests/ -v
+
+      - name: Verify CLI interface (no PYTHONPATH tricks needed)
+        run: |
+          python -m pianofall inspect-system
+          python -m pianofall queue
+          python -m pianofall render-batch --dry-run

@@ -1,0 +1,169 @@
+name: PianoFall Offline Render Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_videos:
+        description: 'Exact number of videos to render in this batch (default: 30)'
+        required: false
+        default: '30'
+      clean_previous:
+        description: 'Auto-delete previous outputs before starting (frees storage, logged in detail)'
+        type: boolean
+        default: true
+      max_hours:
+        description: 'Maximum runtime budget in hours (default: 5.0)'
+        required: false
+        default: '5.0'
+      test_seconds:
+        description: 'Test mode: render first N seconds only (blank for full piece)'
+        required: false
+        default: ''
+      piece_name:
+        description: 'Target specific MIDI filename or substring (blank for auto-queue)'
+        required: false
+        default: ''
+      force_rebuild:
+        description: 'Re-render even if already recorded in processed ledger'
+        type: boolean
+        default: false
+
+# Prevent concurrent runs from colliding over git commits or display resources
+concurrency:
+  group: pianofall-render-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340 # 5h 40m ceiling, cleanly under GitHub's 360-minute limit
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install system FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq ffmpeg
+          ffmpeg -version | head -n 1
+
+      - name: Cache Playwright Chromium browser
+        id: cache-playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-browsers-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+          python -c "import pianofall; print('pianofall package OK:', pianofall.__version__)"
+
+      - name: Install Playwright Chromium & system OS dependencies
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: System and environment inspection
+        run: |
+          python -m pianofall inspect-system
+
+      - name: Execute rendering pipeline
+        env:
+          INPUT_TARGET_VIDEOS: ${{ inputs.target_videos || '30' }}
+          INPUT_CLEAN_PREVIOUS: ${{ inputs.clean_previous }}
+          INPUT_MAX_HOURS: ${{ inputs.max_hours || '5.0' }}
+          INPUT_TEST_SECONDS: ${{ inputs.test_seconds }}
+          INPUT_PIECE_NAME: ${{ inputs.piece_name }}
+          INPUT_FORCE_REBUILD: ${{ inputs.force_rebuild || 'false' }}
+          PYTHONUNBUFFERED: '1'
+        run: |
+          python -m pianofall render-batch --target-videos "${INPUT_TARGET_VIDEOS}" --max-hours "${INPUT_MAX_HOURS}"
+
+      - name: Upload diagnostic screenshot on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-screenshots-${{ github.run_id }}
+          path: data/debug_*.png
+          if-no-files-found: ignore
+
+      - name: Commit and push rendered assets and audit ledgers
+        if: always()
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage outputs, data ledgers, and midis_pool
+          git add outputs/ data/ midis_pool/
+
+          if git diff --staged --quiet; then
+            echo "No repository state changes to commit."
+          else
+            git commit -m "feat(render): store rendered batch outputs and sync audit ledgers [skip ci]"
+            BRANCH="${GITHUB_REF_NAME:-main}"
+            git fetch origin "$BRANCH"
+            git rebase "origin/$BRANCH" || {
+              git rebase --abort
+              git merge --no-edit -X theirs "origin/$BRANCH"
+            }
+            git push origin "$BRANCH"
+            echo "Successfully committed and pushed updates to $BRANCH."
+          fi
+
+      - name: Evaluate batch completion status and dispatch continuation if required
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INPUT_MAX_HOURS: ${{ inputs.max_hours || '5.0' }}
+          INPUT_PIECE_NAME: ${{ inputs.piece_name }}
+        run: |
+          python -c "
+          import json, os, subprocess
+          from pathlib import Path
+
+          summary_file = Path('data/run_summary.json')
+          if not summary_file.exists():
+              print('No run_summary.json found; skipping continuation check.')
+              exit(0)
+
+          data = json.loads(summary_file.read_text(encoding='utf-8'))
+          remaining = data.get('remaining', 0)
+          target = data.get('target_videos', 30)
+          done = data.get('successful_this_run', 0)
+
+          print(f'Batch Progress: {done} completed, {remaining} remaining out of {target} target.')
+
+          if remaining > 0:
+              print(f'Target of {target} not yet met ({remaining} pieces remaining).')
+              print('5th-hour cutoff was reached. Dispatching continuation workflow with clean_previous=false...')
+              cmd = [
+                  'gh', 'workflow', 'run', 'render.yml',
+                  '-f', f'target_videos={remaining}',
+                  '-f', 'clean_previous=false',
+                  '-f', f'max_hours={os.getenv(\"INPUT_MAX_HOURS\", \"5.0\")}',
+              ]
+              piece = os.getenv('INPUT_PIECE_NAME', '').strip()
+              if piece:
+                  cmd.extend(['-f', f'piece_name={piece}'])
+              res = subprocess.run(cmd, capture_output=True, text=True)
+              print('Continuation dispatch stdout:', res.stdout)
+              if res.returncode != 0:
+                  print('Continuation dispatch stderr:', res.stderr)
+          else:
+              print(f'Exact target of {target} videos completed! Complete shutdown. No further workflows dispatched.')
+          "

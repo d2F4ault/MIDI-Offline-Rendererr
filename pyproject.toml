@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pianofall"
+version = "1.0.0"
+description = "A high-performance, automated offline renderer for falling-notes piano visualizations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "PianoFall Contributors" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Sound/Audio :: MIDI",
+    "Topic :: Multimedia :: Video :: Conversion",
+]
+dependencies = [
+    "playwright>=1.40.0",
+    "mido>=1.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.4.0",
+]
+
+[project.scripts]
+pianofall = "pianofall.cli:main"
+
+# Package lives at repo root (pianofall/ directory), NOT inside src/.
+# This is the layout that makes `python -m pianofall` work from the repo root
+# without any PYTHONPATH hacks or editable installs.
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pianofall*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# No pythonpath override needed — pytest runs from repo root where pianofall/ lives.

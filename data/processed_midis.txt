@@ -1,0 +1,3 @@
+# PianoFall — Processed MIDI filenames (one per line, no extension)
+# This file prevents re-rendering already completed pieces.
+# Auto-managed by the render pipeline. Do not edit manually.
