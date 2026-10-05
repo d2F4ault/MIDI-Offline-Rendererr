@@ -68,3 +68,15 @@ Scriabin, Aleksandr, 3 Pieces, Op.45, 6AF1dBOVj5o	78.66s	4720f	15315375B	2026-10
 Graun, Karl Heinrich, Die Auferstehung, eGu8q8rzvrU	78.83s	4730f	22647023B	2026-10-05T17:41:27.234686+00:00	outputs/run_2026-10-05_131121/mp4/Graun, Karl Heinrich, Die Auferstehung, eGu8q8rzvrU.mp4
 Newton, P. W., Edna Gavotte, yOccTzKXFM8	79.35s	4761f	15242525B	2026-10-05T17:49:56.046255+00:00	outputs/run_2026-10-05_131121/mp4/Newton, P. W., Edna Gavotte, yOccTzKXFM8.mp4
 Zwyssig, Alberich, Schweizerpsalm, sgV6eTWSbdU	79.40s	4764f	15895233B	2026-10-05T17:58:18.303498+00:00	outputs/run_2026-10-05_131121/mp4/Zwyssig, Alberich, Schweizerpsalm, sgV6eTWSbdU.mp4
+Macchi, Claudio, Zapateado, -f0Qi0wm4Xc	79.99s	4799f	21518586B	2026-10-05T18:10:51.595574+00:00	outputs/run_2026-10-05_180230/mp4/Macchi, Claudio, Zapateado, -f0Qi0wm4Xc.mp4
+Milano, Francesco da, Ricercar XVI, gVc-ka3rkUs	80.82s	4849f	17563287B	2026-10-05T18:19:10.222184+00:00	outputs/run_2026-10-05_180230/mp4/Milano, Francesco da, Ricercar XVI, gVc-ka3rkUs.mp4
+Sor, Fernando, 6 Petites Pièces, Op.32, euDCU2_SEqQ	81.99s	4919f	15168650B	2026-10-05T18:27:34.417317+00:00	outputs/run_2026-10-05_180230/mp4/Sor, Fernando, 6 Petites Pièces, Op.32, euDCU2_SEqQ.mp4
+Scriabin, Aleksandr, Canon in D minor, Fi9lXB4GSOA	82.49s	4949f	17356853B	2026-10-05T18:36:09.784450+00:00	outputs/run_2026-10-05_180230/mp4/Scriabin, Aleksandr, Canon in D minor, Fi9lXB4GSOA.mp4
+Campion, François, Gavotte en Rondeau, wjFGAm3aVcE	82.50s	4950f	19333868B	2026-10-05T18:44:41.860985+00:00	outputs/run_2026-10-05_180230/mp4/Campion, François, Gavotte en Rondeau, wjFGAm3aVcE.mp4
+Bach, Johann Sebastian, Sinfonia in D major, BWV 789, 6h-vn-Koutc	82.77s	4966f	20798467B	2026-10-05T18:53:17.359686+00:00	outputs/run_2026-10-05_180230/mp4/Bach, Johann Sebastian, Sinfonia in D major, BWV 789, 6h-vn-Koutc.mp4
+Visée, Robert de, Bouréé in G major, lkvN-Wea8WY	83.27s	4996f	18232626B	2026-10-05T19:01:56.702827+00:00	outputs/run_2026-10-05_180230/mp4/Visée, Robert de, Bouréé in G major, lkvN-Wea8WY.mp4
+Poulenc, Francis, Feuillets d_album, FP 68, L5tnc8sIpf0	83.65s	5019f	18407925B	2026-10-05T19:10:38.297604+00:00	outputs/run_2026-10-05_180230/mp4/Poulenc, Francis, Feuillets d_album, FP 68, L5tnc8sIpf0.mp4
+Sekles, Bernhard, Skizzen, Op.10, WcG3gD-i4yQ	84.77s	5086f	22990182B	2026-10-05T19:19:28.338667+00:00	outputs/run_2026-10-05_180230/mp4/Sekles, Bernhard, Skizzen, Op.10, WcG3gD-i4yQ.mp4
+Scriabin, Aleksandr, Quasi valse, Op.47, KdLhIoo4cFE	85.11s	5107f	20945589B	2026-10-05T19:28:18.840313+00:00	outputs/run_2026-10-05_180230/mp4/Scriabin, Aleksandr, Quasi valse, Op.47, KdLhIoo4cFE.mp4
+Teilman, Christian, Kværnkallen, r1FwqIM0zqE	86.69s	5201f	26101283B	2026-10-05T19:37:14.734752+00:00	outputs/run_2026-10-05_180230/mp4/Teilman, Christian, Kværnkallen, r1FwqIM0zqE.mp4
+Fux, Johann Joseph, Domine fac mecum misericordiam, K.155, 4cpfH60vChY	87.34s	5240f	22225509B	2026-10-05T19:46:16.250833+00:00	outputs/run_2026-10-05_180230/mp4/Fux, Johann Joseph, Domine fac mecum misericordiam, K.155, 4cpfH60vChY.mp4
