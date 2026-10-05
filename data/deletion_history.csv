@@ -1,1 +1,61 @@
 cleanup_timestamp_utc,run_folder,file_type,filename,size_bytes,size_mb,rendered_date,deletion_reason
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Gillet, Ernest, Entr_acte-gavotte, Op.13, RsZR0lKnYV0.mid,3932,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Handel, George Frideric, Passepied in C major, HWV 559, IKB-S0f1cg0.mid,1526,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Psimikakis-Chalkokondylis, Nikolaos-Laonikos, IV, _sENFxLnbYE.mid,4095,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Ornstein, Leo, Memories from Childhood, SO 66, dkQDkInEp9E.mid,1863,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Zipoli, Domenico, Fughetta in E minor, s_iUHy1oD4s.mid,1530,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Oesten, Theodore, Goldperlen, Op.94, B0bZhzicgKI.mid,797,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Handel, George Frideric, Minuet in D minor, HWV 462, Nz5QPIEwX04.mid,1776,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Tinel, Jef, Dansende muggen, i3qF6A-Jpfw.mid,2784,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Lyadov, Anatoly, 3 Preludes, Op.36, eHqLwlLILXI.mid,2437,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Mozart, Wolfgang Amadeus, Fugue in G major, K.Anh.41_375g, ix7hykPFJgI.mid,3522,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Purcell, Henry, Air in D Minor, ZT 675, MKQbysfs8HI.mid,1144,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Polovinkin, Leonid, Les attraits, -2BwgC_-p_E.mid,3546,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Kirchner, Theodor, 100 Kleine Studien, Op.71, xZAPsi_l0Zo.mid,2185,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Stankovych, Tatiana, Prelude No.2, Ej-zz8Mn5lU.mid,2976,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Campion, François, Prelude, DYx4CAZvuWQ.mid,1146,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Clark, Scotson, Tarantella, OUAHlMaaLFs.mid,1070,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Spindler, Fritz, Wellenspiel, Op.6, krXtgqRCAvU.mid,366,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Köhler, Louis, Practical Method for the Pianoforte, Op.249, hkuXgg0T698.mid,2593,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Harder, August, Hört die Lerche, sie singt_, OBWs5GIwsR8.mid,1594,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Stankovych, Tatiana, La Sorgente, WW4umF_tRIA.mid,2474,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Beethoven, Ludwig van, Bagatelle, WoO 61a, OoLwAQrVQUY.mid,842,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Cramer, Johann Baptist, Piano Quintet No.1, Op.60, k-EpZs6EfW0.mid,3976,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Bach, Johann Sebastian, Invention in G major, BWV 781, jVHqIK13-nk.mid,3892,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Scarlatti, Domenico, Keyboard Sonata in G major, K.79, CVnj7f2Ap0Y.mid,4684,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Sauter, Louis, Variations on _We Wish You a Merry Christmas_, QArRL0Q1_qg.mid,3868,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Chaminade, Cécile, Gavotte No.2, Op.121, dQYOBA9BETA.mid,4467,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Elgar, Edward, Drakes Broughton, FtoN_0SjUq8.mid,2298,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Kuliev, Ramin, Visions Fugitives, Op.6 No.3, BuKB1dB5Ql8.mid,2894,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Schubert, Franz, 8 Ecossaises, D.529, jFN1prco1Sg.mid,2299,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MIDI File,Bartók, Béla, First Term at the Piano, Sz.53, yOyZ9lVCFK0.mid,1457,0.00,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Kuliev, Ramin, Visions Fugitives, Op.6 No.3, BuKB1dB5Ql8.mp4,10425301,9.94,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Stankovych, Tatiana, Prelude No.2, Ej-zz8Mn5lU.mp4,15192018,14.49,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Polovinkin, Leonid, Les attraits, -2BwgC_-p_E.mp4,16804636,16.03,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Chaminade, Cécile, Gavotte No.2, Op.121, dQYOBA9BETA.mp4,16782641,16.01,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Mozart, Wolfgang Amadeus, Fugue in G major, K.Anh.41_375g, ix7hykPFJgI.mp4,12522126,11.94,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Handel, George Frideric, Passepied in C major, HWV 559, IKB-S0f1cg0.mp4,9139265,8.72,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Oesten, Theodore, Goldperlen, Op.94, B0bZhzicgKI.mp4,5621975,5.36,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Bartók, Béla, First Term at the Piano, Sz.53, yOyZ9lVCFK0.mp4,8008202,7.64,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Gillet, Ernest, Entr_acte-gavotte, Op.13, RsZR0lKnYV0.mp4,15906422,15.17,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Zipoli, Domenico, Fughetta in E minor, s_iUHy1oD4s.mp4,8732655,8.33,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Lyadov, Anatoly, 3 Preludes, Op.36, eHqLwlLILXI.mp4,10016704,9.55,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Schubert, Franz, 8 Ecossaises, D.529, jFN1prco1Sg.mp4,7317029,6.98,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Kirchner, Theodor, 100 Kleine Studien, Op.71, xZAPsi_l0Zo.mp4,9693837,9.24,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Bach, Johann Sebastian, Invention in G major, BWV 781, jVHqIK13-nk.mp4,16884485,16.10,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Scarlatti, Domenico, Keyboard Sonata in G major, K.79, CVnj7f2Ap0Y.mp4,16554318,15.79,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Stankovych, Tatiana, La Sorgente, WW4umF_tRIA.mp4,13214900,12.60,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Sauter, Louis, Variations on _We Wish You a Merry Christmas_, QArRL0Q1_qg.mp4,13179132,12.57,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Spindler, Fritz, Wellenspiel, Op.6, krXtgqRCAvU.mp4,2602267,2.48,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Cramer, Johann Baptist, Piano Quintet No.1, Op.60, k-EpZs6EfW0.mp4,15185366,14.48,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Campion, François, Prelude, DYx4CAZvuWQ.mp4,10554586,10.07,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Psimikakis-Chalkokondylis, Nikolaos-Laonikos, IV, _sENFxLnbYE.mp4,14313995,13.65,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Clark, Scotson, Tarantella, OUAHlMaaLFs.mp4,7230725,6.90,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Tinel, Jef, Dansende muggen, i3qF6A-Jpfw.mp4,12163380,11.60,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Köhler, Louis, Practical Method for the Pianoforte, Op.249, hkuXgg0T698.mp4,12782457,12.19,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Ornstein, Leo, Memories from Childhood, SO 66, dkQDkInEp9E.mp4,11344764,10.82,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Elgar, Edward, Drakes Broughton, FtoN_0SjUq8.mp4,12707200,12.12,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Harder, August, Hört die Lerche, sie singt_, OBWs5GIwsR8.mp4,7615752,7.26,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Beethoven, Ludwig van, Bagatelle, WoO 61a, OoLwAQrVQUY.mp4,5913019,5.64,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Handel, George Frideric, Minuet in D minor, HWV 462, Nz5QPIEwX04.mp4,10131735,9.66,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Purcell, Henry, Air in D Minor, ZT 675, MKQbysfs8HI.mp4,6260702,5.97,2026-10-05 13:10:33,storage_preservation_new_batch
