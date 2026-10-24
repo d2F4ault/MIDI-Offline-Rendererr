@@ -80,3 +80,33 @@ Sekles, Bernhard, Skizzen, Op.10, WcG3gD-i4yQ	84.77s	5086f	22990182B	2026-10-05T
 Scriabin, Aleksandr, Quasi valse, Op.47, KdLhIoo4cFE	85.11s	5107f	20945589B	2026-10-05T19:28:18.840313+00:00	outputs/run_2026-10-05_180230/mp4/Scriabin, Aleksandr, Quasi valse, Op.47, KdLhIoo4cFE.mp4
 Teilman, Christian, Kværnkallen, r1FwqIM0zqE	86.69s	5201f	26101283B	2026-10-05T19:37:14.734752+00:00	outputs/run_2026-10-05_180230/mp4/Teilman, Christian, Kværnkallen, r1FwqIM0zqE.mp4
 Fux, Johann Joseph, Domine fac mecum misericordiam, K.155, 4cpfH60vChY	87.34s	5240f	22225509B	2026-10-05T19:46:16.250833+00:00	outputs/run_2026-10-05_180230/mp4/Fux, Johann Joseph, Domine fac mecum misericordiam, K.155, 4cpfH60vChY.mp4
+Szymanowska, Maria Agata, 4 Preludes, 4K4eOyPxwnQ	87.40s	5244f	22883056B	2026-10-24T13:17:44.825072+00:00	outputs/run_2026-10-24_131223/mp4/Szymanowska, Maria Agata, 4 Preludes, 4K4eOyPxwnQ.mp4
+Bach, Johann Sebastian, Invention in D major, BWV 774, whfkzyoRau8	87.44s	5246f	19463856B	2026-10-24T13:23:16.648920+00:00	outputs/run_2026-10-24_131223/mp4/Bach, Johann Sebastian, Invention in D major, BWV 774, whfkzyoRau8.mp4
+Bedoya, Harold, Acuarela Jürgen, foGItDShHyk	87.50s	5250f	17303407B	2026-10-24T13:28:52.105522+00:00	outputs/run_2026-10-24_131223/mp4/Bedoya, Harold, Acuarela Jürgen, foGItDShHyk.mp4
+Tinel, Jef, Het angelus, gLqDkpTGnH8	87.82s	5269f	21190784B	2026-10-24T13:34:23.816482+00:00	outputs/run_2026-10-24_131223/mp4/Tinel, Jef, Het angelus, gLqDkpTGnH8.mp4
+Tinel, Jef, Als de zonne daalt, 7vZSaw_sO2Y	87.86s	5272f	16638526B	2026-10-24T13:39:46.930143+00:00	outputs/run_2026-10-24_131223/mp4/Tinel, Jef, Als de zonne daalt, 7vZSaw_sO2Y.mp4
+Mozart, Wolfgang Amadeus, Minuet in F major, K.4, HwxNF9Hmz_s	89.51s	5371f	17191259B	2026-10-24T13:45:18.720040+00:00	outputs/run_2026-10-24_131223/mp4/Mozart, Wolfgang Amadeus, Minuet in F major, K.4, HwxNF9Hmz_s.mp4
+Hallé, Charles, Dämmerungs-Gedanken, Op.7, qXweW_rDYII	91.50s	5490f	23180321B	2026-10-24T13:50:51.394738+00:00	outputs/run_2026-10-24_131223/mp4/Hallé, Charles, Dämmerungs-Gedanken, Op.7, qXweW_rDYII.mp4
+Schubert, Camille, La rose de Palerme, Op.232, QvT_6K1ynpc	91.53s	5492f	25426795B	2026-10-24T13:56:32.322919+00:00	outputs/run_2026-10-24_131223/mp4/Schubert, Camille, La rose de Palerme, Op.232, QvT_6K1ynpc.mp4
+Hanson, Howard, Clog Dance, V2kRWdgxEp4	92.11s	5527f	28409064B	2026-10-24T14:02:09.437667+00:00	outputs/run_2026-10-24_131223/mp4/Hanson, Howard, Clog Dance, V2kRWdgxEp4.mp4
+Rebikov, Vladimir, Les immortelles, n-5IV0S7CdA	92.50s	5550f	22074879B	2026-10-24T14:08:02.560698+00:00	outputs/run_2026-10-24_131223/mp4/Rebikov, Vladimir, Les immortelles, n-5IV0S7CdA.mp4
+Scarlatti, Alessandro, Spanish Folies, DQqQcjwb9MU	92.50s	5550f	23069475B	2026-10-24T14:13:39.088768+00:00	outputs/run_2026-10-24_131223/mp4/Scarlatti, Alessandro, Spanish Folies, DQqQcjwb9MU.mp4
+Merino Martínez, Aitor, Gioventú, ZNtZL06KHGM	92.70s	5562f	28734420B	2026-10-24T14:19:24.760322+00:00	outputs/run_2026-10-24_131223/mp4/Merino Martínez, Aitor, Gioventú, ZNtZL06KHGM.mp4
+Chaminade, Cécile, Album des enfants - 2ème série, Op.126, RZAX8eBgKcQ	92.73s	5564f	20040569B	2026-10-24T14:25:00.061458+00:00	outputs/run_2026-10-24_131223/mp4/Chaminade, Cécile, Album des enfants - 2ème série, Op.126, RZAX8eBgKcQ.mp4
+Turina, Joaquín, El Circo, Op.68, UtnKIvFWiuU	92.73s	5564f	22185497B	2026-10-24T14:30:36.107843+00:00	outputs/run_2026-10-24_131223/mp4/Turina, Joaquín, El Circo, Op.68, UtnKIvFWiuU.mp4
+Hillemacher, Lucien Joseph Edouard, 20 Pièces nouvelles (Hillemacher, Paul Joseph Guillaume), f5BEw1ZSUcw	93.02s	5581f	23856242B	2026-10-24T14:36:12.550655+00:00	outputs/run_2026-10-24_131223/mp4/Hillemacher, Lucien Joseph Edouard, 20 Pièces nouvelles (Hillemacher, Paul Joseph Guillaume), f5BEw1ZSUcw.mp4
+Czerny, Carl, Das moderne Klavierspiel, Op.837, 9YJlw-o7DUM	93.50s	5610f	33027159B	2026-10-24T14:42:02.399726+00:00	outputs/run_2026-10-24_131223/mp4/Czerny, Carl, Das moderne Klavierspiel, Op.837, 9YJlw-o7DUM.mp4
+Kalafati, Vasily, 5 Preludes, Op.7, TJpO8IJmU0w	95.09s	5705f	22397226B	2026-10-24T14:47:58.396991+00:00	outputs/run_2026-10-24_131223/mp4/Kalafati, Vasily, 5 Preludes, Op.7, TJpO8IJmU0w.mp4
+Sowinski, Albert, 12 Études mélodiques, Op.124, zA8EbqIxqmI	96.15s	5769f	23164222B	2026-10-24T14:53:51.002571+00:00	outputs/run_2026-10-24_131223/mp4/Sowinski, Albert, 12 Études mélodiques, Op.124, zA8EbqIxqmI.mp4
+Strelezki, Anton, Bon voyage, j5oc9ljCcc0	96.45s	5787f	27503446B	2026-10-24T14:59:52.316123+00:00	outputs/run_2026-10-24_131223/mp4/Strelezki, Anton, Bon voyage, j5oc9ljCcc0.mp4
+Farnaby, Giles, Tower Hill, FVB 245, sUR44UUADQk	96.85s	5811f	18569641B	2026-10-24T15:05:48.289974+00:00	outputs/run_2026-10-24_131223/mp4/Farnaby, Giles, Tower Hill, FVB 245, sUR44UUADQk.mp4
+Lotti, Antonio, Tanto è ver che neo verno, pNFPV-Zm4io	97.85s	5871f	23597246B	2026-10-24T15:11:44.203981+00:00	outputs/run_2026-10-24_131223/mp4/Lotti, Antonio, Tanto è ver che neo verno, pNFPV-Zm4io.mp4
+La Rue, Pierre de, Vexilla regis prodeunt, N2dvWZKqgME	98.54s	5912f	19296203B	2026-10-24T15:17:36.727428+00:00	outputs/run_2026-10-24_131223/mp4/La Rue, Pierre de, Vexilla regis prodeunt, N2dvWZKqgME.mp4
+Alyabyev, Aleksandr, Farewell to the Nightingale, 4Oj1I6HzcbI	99.00s	5940f	20905125B	2026-10-24T15:23:37.250386+00:00	outputs/run_2026-10-24_131223/mp4/Alyabyev, Aleksandr, Farewell to the Nightingale, 4Oj1I6HzcbI.mp4
+Delius, Frederick, Dance for Harpsichord, uA1p5NN24Io	99.15s	5949f	28504261B	2026-10-24T15:29:45.894895+00:00	outputs/run_2026-10-24_131223/mp4/Delius, Frederick, Dance for Harpsichord, uA1p5NN24Io.mp4
+Novák, Vítězslav, Bagatelles, Op.5, lD8KOiuEa64	99.42s	5965f	26404416B	2026-10-24T15:35:50.725761+00:00	outputs/run_2026-10-24_131223/mp4/Novák, Vítězslav, Bagatelles, Op.5, lD8KOiuEa64.mp4
+Bowman, Euday L., Tipperary Blues, 4VA1ftDk6zs	99.54s	5972f	32797920B	2026-10-24T15:42:08.529354+00:00	outputs/run_2026-10-24_131223/mp4/Bowman, Euday L., Tipperary Blues, 4VA1ftDk6zs.mp4
+Farrenc, Louise, 25 Etudes faciles, Op.50, aMzqFzDExOc	99.99s	5999f	24171253B	2026-10-24T15:48:26.866771+00:00	outputs/run_2026-10-24_131223/mp4/Farrenc, Louise, 25 Etudes faciles, Op.50, aMzqFzDExOc.mp4
+Kreutzer, Léon, Piano Sonata, Op.2 No.2, 8VTt3kLE8Aw	100.76s	6046f	25069490B	2026-10-24T15:54:39.850408+00:00	outputs/run_2026-10-24_131223/mp4/Kreutzer, Léon, Piano Sonata, Op.2 No.2, 8VTt3kLE8Aw.mp4
+Zierau, Fritz, Moment musical, q8vY8BXHjck	101.03s	6062f	25941656B	2026-10-24T16:00:59.255566+00:00	outputs/run_2026-10-24_131223/mp4/Zierau, Fritz, Moment musical, q8vY8BXHjck.mp4
+Nietzsche, Friedrich, Ungarischer Marsch, 10jouGWqGmM	101.86s	6112f	24404941B	2026-10-24T16:07:27.183966+00:00	outputs/run_2026-10-24_131223/mp4/Nietzsche, Friedrich, Ungarischer Marsch, 10jouGWqGmM.mp4

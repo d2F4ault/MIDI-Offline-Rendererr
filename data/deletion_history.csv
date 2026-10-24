@@ -59,3 +59,103 @@ cleanup_timestamp_utc,run_folder,file_type,filename,size_bytes,size_mb,rendered_
 2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Beethoven, Ludwig van, Bagatelle, WoO 61a, OoLwAQrVQUY.mp4,5913019,5.64,2026-10-05 13:10:33,storage_preservation_new_batch
 2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Handel, George Frideric, Minuet in D minor, HWV 462, Nz5QPIEwX04.mp4,10131735,9.66,2026-10-05 13:10:33,storage_preservation_new_batch
 2026-10-05T13:11:21.281811+00:00,run_2026-10-01_113829,MP4 Video,Purcell, Henry, Air in D Minor, ZT 675, MKQbysfs8HI.mp4,6260702,5.97,2026-10-05 13:10:33,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Handel, George Frideric, Minuet in F major, HWV 514, b97QFpkELuQ.mid,3125,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Macchi, Claudio, Sonatina 1, 4IAQTZ3GtcI.mid,5517,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Scriabin, Aleksandr, 3 Pieces, Op.45, 6AF1dBOVj5o.mid,2038,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Clarke, Jeremiah, A March, CUTnwhr4s9g.mid,2925,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Handel, George Frideric, Minuet in F major, HWV 513, b97QFpkELuQ.mid,3125,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Handel, George Frideric, Air in D major, AteXZAasHAI.mid,1544,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Bruckner, Anton, Aequale, WAB 149, H8z7LQgEbrk.mid,3165,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Handel, George Frideric, Gigue in C major, HWV 599, VkSHpiLIu9A.mid,2785,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Chopin, Frédéric, Allegretto and Mazurka, bFkqrrBUFA4.mid,4372,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Dunhill, Thomas, Dew Fairies, yf1IJOvcaTY.mid,3335,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Rowley, Alec, Piano Sonata No.1, txGYuw5-Me0.mid,5936,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Poulenc, Francis, Le gendarme incompris (suite), FP 20b, bm9VMW_GCF0.mid,9754,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Scarlatti, Domenico, Keyboard Sonata in A major, K.342, rDqI-TyDeE8.mid,5285,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Henselt, Adolf von, Pensée fugitive, Op.8, nCyefYOKZg4.mid,8735,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Marieh, Marieh, A Beetle on the Moon, T5vm20Ld1MI.mid,2969,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Newton, P. W., Edna Gavotte, yOccTzKXFM8.mid,3231,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Beethoven, Ludwig van, Bagatelle in B-flat major, WoO 60, v74xJQCOjEE.mid,2490,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Williams, Frederick Arthur, A Trip to Fairyland, Op.95, gDE2rKnYev4.mid,6698,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Heller, Stephen, Preludes pour Mademoiselle Lili, Op.119, odKqt7m52Gk.mid,3702,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Dandrieu, Jean-François, Gavotte in D major, 2jB63GEVrZw.mid,4130,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Fuchs, Robert, Jugendalbum, Op.47, GbmCSJmoj80.mid,3321,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Chopin, Frédéric, Mazurka in D major, B.71, Kmv893EHqPI.mid,6895,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Demarin, Luka, Loccata No.1, Op.4, y7EtI0QZeeA.mid,5344,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Glinka, Mikhail, Las Mollares, WXp9tclKTQk.mid,5621,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Bach, Johann Sebastian, Sinfonia in F major, BWV 794, iE5aRQ87fSA.mid,3986,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Wilm, Nicolai von, Stammbuchblätter, Op.217, w7nC1R_EfDI.mid,2678,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Lamb, Aidan, Caprice, Op.3, LOviR2xJt1Y.mid,3115,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Heller, Stephen, 25 Etudes mélodiques, Op.45, d8WT08Dkor0.mid,4731,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Mourey, Colette, Le Coq, PveqrWnjQWE.mid,2864,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Zwyssig, Alberich, Schweizerpsalm, sgV6eTWSbdU.mid,2551,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Rameau, Jean-Philippe, Les Fêtes de Ramire, RCT 40, qWL0K1ek3ls.mid,3505,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Mozart, Wolfgang Amadeus, Minuet in D major, K.94_73h, Chmb7ddJ8o4.mid,2553,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Godowsky, Leopold, Intermezzo, 6GfORbmSRAM.mid,5533,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Graun, Karl Heinrich, Die Auferstehung, eGu8q8rzvrU.mid,7147,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Palmgren, Selim, Concert Etude, Ekbvf5Hn8vs.mid,7765,0.01,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Macchi, Claudio, Romanza senza parole 3, eWb_FjvR_6M.mid,3809,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Handel, George Frideric, Minuet in F major, HWV 517, b97QFpkELuQ.mid,3125,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MIDI File,Nacci, Andrea Antonello, San Giuseppe da Copertino, hU3G9jbmQUQ.mid,2143,0.00,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Heller, Stephen, Preludes pour Mademoiselle Lili, Op.119, odKqt7m52Gk.mp4,16439430,15.68,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Mozart, Wolfgang Amadeus, Minuet in D major, K.94_73h, Chmb7ddJ8o4.mp4,14339944,13.68,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Henselt, Adolf von, Pensée fugitive, Op.8, nCyefYOKZg4.mp4,23779480,22.68,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Wilm, Nicolai von, Stammbuchblätter, Op.217, w7nC1R_EfDI.mp4,14620073,13.94,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Clarke, Jeremiah, A March, CUTnwhr4s9g.mp4,15382898,14.67,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Handel, George Frideric, Gigue in C major, HWV 599, VkSHpiLIu9A.mp4,16191174,15.44,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Godowsky, Leopold, Intermezzo, 6GfORbmSRAM.mp4,20615893,19.66,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Zwyssig, Alberich, Schweizerpsalm, sgV6eTWSbdU.mp4,15895233,15.16,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Rowley, Alec, Piano Sonata No.1, txGYuw5-Me0.mp4,20359737,19.42,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Handel, George Frideric, Minuet in F major, HWV 513, b97QFpkELuQ.mp4,15664335,14.94,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Handel, George Frideric, Minuet in F major, HWV 517, b97QFpkELuQ.mp4,15664373,14.94,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Dandrieu, Jean-François, Gavotte in D major, 2jB63GEVrZw.mp4,17991673,17.16,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Bruckner, Anton, Aequale, WAB 149, H8z7LQgEbrk.mp4,17035543,16.25,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Glinka, Mikhail, Las Mollares, WXp9tclKTQk.mp4,19180401,18.29,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Newton, P. W., Edna Gavotte, yOccTzKXFM8.mp4,15242525,14.54,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Heller, Stephen, 25 Etudes mélodiques, Op.45, d8WT08Dkor0.mp4,18433972,17.58,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Nacci, Andrea Antonello, San Giuseppe da Copertino, hU3G9jbmQUQ.mp4,12476294,11.90,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Mourey, Colette, Le Coq, PveqrWnjQWE.mp4,15072812,14.37,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Chopin, Frédéric, Allegretto and Mazurka, bFkqrrBUFA4.mp4,18598672,17.74,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Macchi, Claudio, Sonatina 1, 4IAQTZ3GtcI.mp4,18965056,18.09,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Scarlatti, Domenico, Keyboard Sonata in A major, K.342, rDqI-TyDeE8.mp4,19800729,18.88,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Bach, Johann Sebastian, Sinfonia in F major, BWV 794, iE5aRQ87fSA.mp4,18185125,17.34,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Handel, George Frideric, Air in D major, AteXZAasHAI.mp4,14009841,13.36,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Graun, Karl Heinrich, Die Auferstehung, eGu8q8rzvrU.mp4,22647023,21.60,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Demarin, Luka, Loccata No.1, Op.4, y7EtI0QZeeA.mp4,19886464,18.97,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Williams, Frederick Arthur, A Trip to Fairyland, Op.95, gDE2rKnYev4.mp4,21247060,20.26,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Chopin, Frédéric, Mazurka in D major, B.71, Kmv893EHqPI.mp4,22157656,21.13,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Lamb, Aidan, Caprice, Op.3, LOviR2xJt1Y.mp4,14379458,13.71,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Macchi, Claudio, Romanza senza parole 3, eWb_FjvR_6M.mp4,15881592,15.15,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Handel, George Frideric, Minuet in F major, HWV 514, b97QFpkELuQ.mp4,15670094,14.94,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Scriabin, Aleksandr, 3 Pieces, Op.45, 6AF1dBOVj5o.mp4,15315375,14.61,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Fuchs, Robert, Jugendalbum, Op.47, GbmCSJmoj80.mp4,15806336,15.07,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Poulenc, Francis, Le gendarme incompris (suite), FP 20b, bm9VMW_GCF0.mp4,27524496,26.25,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Marieh, Marieh, A Beetle on the Moon, T5vm20Ld1MI.mp4,14941516,14.25,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Rameau, Jean-Philippe, Les Fêtes de Ramire, RCT 40, qWL0K1ek3ls.mp4,15449910,14.73,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Beethoven, Ludwig van, Bagatelle in B-flat major, WoO 60, v74xJQCOjEE.mp4,14314908,13.65,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Dunhill, Thomas, Dew Fairies, yf1IJOvcaTY.mp4,14839152,14.15,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_131121,MP4 Video,Palmgren, Selim, Concert Etude, Ekbvf5Hn8vs.mp4,22223760,21.19,2026-10-24 13:09:56,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Campion, François, Gavotte en Rondeau, wjFGAm3aVcE.mid,4359,0.00,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Teilman, Christian, Kværnkallen, r1FwqIM0zqE.mid,8194,0.01,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Visée, Robert de, Bouréé in G major, lkvN-Wea8WY.mid,2758,0.00,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Poulenc, Francis, Feuillets d_album, FP 68, L5tnc8sIpf0.mid,3751,0.00,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Milano, Francesco da, Ricercar XVI, gVc-ka3rkUs.mid,3689,0.00,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Scriabin, Aleksandr, Quasi valse, Op.47, KdLhIoo4cFE.mid,4084,0.00,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Fux, Johann Joseph, Domine fac mecum misericordiam, K.155, 4cpfH60vChY.mid,5064,0.00,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Bach, Johann Sebastian, Sinfonia in D major, BWV 789, 6h-vn-Koutc.mid,4460,0.00,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Sekles, Bernhard, Skizzen, Op.10, WcG3gD-i4yQ.mid,6260,0.01,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Sor, Fernando, 6 Petites Pièces, Op.32, euDCU2_SEqQ.mid,2325,0.00,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Macchi, Claudio, Zapateado, -f0Qi0wm4Xc.mid,5669,0.01,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MIDI File,Scriabin, Aleksandr, Canon in D minor, Fi9lXB4GSOA.mid,3177,0.00,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Macchi, Claudio, Zapateado, -f0Qi0wm4Xc.mp4,21518586,20.52,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Scriabin, Aleksandr, Quasi valse, Op.47, KdLhIoo4cFE.mp4,20945589,19.98,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Sekles, Bernhard, Skizzen, Op.10, WcG3gD-i4yQ.mp4,22990182,21.93,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Bach, Johann Sebastian, Sinfonia in D major, BWV 789, 6h-vn-Koutc.mp4,20798467,19.83,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Sor, Fernando, 6 Petites Pièces, Op.32, euDCU2_SEqQ.mp4,15168650,14.47,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Campion, François, Gavotte en Rondeau, wjFGAm3aVcE.mp4,19333868,18.44,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Milano, Francesco da, Ricercar XVI, gVc-ka3rkUs.mp4,17563287,16.75,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Teilman, Christian, Kværnkallen, r1FwqIM0zqE.mp4,26101283,24.89,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Visée, Robert de, Bouréé in G major, lkvN-Wea8WY.mp4,18232626,17.39,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Poulenc, Francis, Feuillets d_album, FP 68, L5tnc8sIpf0.mp4,18407925,17.56,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Fux, Johann Joseph, Domine fac mecum misericordiam, K.155, 4cpfH60vChY.mp4,22225509,21.20,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Scriabin, Aleksandr, Canon in D minor, Fi9lXB4GSOA.mp4,17356853,16.55,2026-10-24 13:09:57,storage_preservation_new_batch
