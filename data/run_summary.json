@@ -1,8 +1,8 @@
 {
-  "run_id": "run_2026-11-10_130742",
-  "target_videos": 30,
-  "successful_this_run": 20,
-  "remaining": 10,
-  "total_batch_seconds": 17260.617418527603,
-  "completed_at": "2026-11-10T17:55:23.383659+00:00"
+  "run_id": "run_2026-11-10_181721",
+  "target_videos": 10,
+  "successful_this_run": 10,
+  "remaining": 0,
+  "total_batch_seconds": 9304.00282382965,
+  "completed_at": "2026-11-10T20:52:25.470935+00:00"
 }
