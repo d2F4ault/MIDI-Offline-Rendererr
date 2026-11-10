@@ -110,3 +110,23 @@ Farrenc, Louise, 25 Etudes faciles, Op.50, aMzqFzDExOc	99.99s	5999f	24171253B	20
 Kreutzer, Léon, Piano Sonata, Op.2 No.2, 8VTt3kLE8Aw	100.76s	6046f	25069490B	2026-10-24T15:54:39.850408+00:00	outputs/run_2026-10-24_131223/mp4/Kreutzer, Léon, Piano Sonata, Op.2 No.2, 8VTt3kLE8Aw.mp4
 Zierau, Fritz, Moment musical, q8vY8BXHjck	101.03s	6062f	25941656B	2026-10-24T16:00:59.255566+00:00	outputs/run_2026-10-24_131223/mp4/Zierau, Fritz, Moment musical, q8vY8BXHjck.mp4
 Nietzsche, Friedrich, Ungarischer Marsch, 10jouGWqGmM	101.86s	6112f	24404941B	2026-10-24T16:07:27.183966+00:00	outputs/run_2026-10-24_131223/mp4/Nietzsche, Friedrich, Ungarischer Marsch, 10jouGWqGmM.mp4
+Handel, George Frideric, Air in B-flat major, HWV 471, S6eL95P6jvw	101.97s	6118f	20997780B	2026-11-10T13:21:32.042196+00:00	outputs/run_2026-11-10_130742/mp4/Handel, George Frideric, Air in B-flat major, HWV 471, S6eL95P6jvw.mp4
+Ansell, John, The Indian Juggler, _qIWYykOCtw	102.22s	6133f	23591667B	2026-11-10T13:35:23.336903+00:00	outputs/run_2026-11-10_130742/mp4/Ansell, John, The Indian Juggler, _qIWYykOCtw.mp4
+Dubois, Théodore, 20 Pièces nouvelles, ePWdxarglIM	102.36s	6142f	27530658B	2026-11-10T13:49:18.945783+00:00	outputs/run_2026-11-10_130742/mp4/Dubois, Théodore, 20 Pièces nouvelles, ePWdxarglIM.mp4
+Ludwig, Wenzel, 2 Piano Pieces, Op.7, RQKTg3stk4I	102.50s	6150f	26116691B	2026-11-10T14:03:15.101992+00:00	outputs/run_2026-11-10_130742/mp4/Ludwig, Wenzel, 2 Piano Pieces, Op.7, RQKTg3stk4I.mp4
+Victoria, Tomás Luis de, Estote fortes in bello, aeG5vOeUdYo	102.50s	6150f	20344933B	2026-11-10T14:16:55.064640+00:00	outputs/run_2026-11-10_130742/mp4/Victoria, Tomás Luis de, Estote fortes in bello, aeG5vOeUdYo.mp4
+Le Couppey, Félix, Le rythme, Op.22, wuwFg1U15vs	102.64s	6158f	23455050B	2026-11-10T14:30:40.073956+00:00	outputs/run_2026-11-10_130742/mp4/Le Couppey, Félix, Le rythme, Op.22, wuwFg1U15vs.mp4
+Debussy, Claude, The Little Nigar, P3NCYpdlJo8	103.41s	6205f	22661556B	2026-11-10T14:44:44.965141+00:00	outputs/run_2026-11-10_130742/mp4/Debussy, Claude, The Little Nigar, P3NCYpdlJo8.mp4
+Kalkbrenner, Friedrich Wilhelm, Traité d_harmonie du pianiste, Op.185, fo5CPqAG3F0	104.27s	6256f	29762232B	2026-11-10T14:59:12.075706+00:00	outputs/run_2026-11-10_130742/mp4/Kalkbrenner, Friedrich Wilhelm, Traité d_harmonie du pianiste, Op.185, fo5CPqAG3F0.mp4
+Alnæs, Eyvind, Variations, Op.5, jltNNSoVNXQ	106.21s	6373f	23716009B	2026-11-10T15:13:54.630848+00:00	outputs/run_2026-11-10_130742/mp4/Alnæs, Eyvind, Variations, Op.5, jltNNSoVNXQ.mp4
+Poulenc, Francis, Française d_après Claude Gervaise, FP 103, EYfvH4wlKyI	106.22s	6373f	25714245B	2026-11-10T15:28:30.602539+00:00	outputs/run_2026-11-10_130742/mp4/Poulenc, Francis, Française d_après Claude Gervaise, FP 103, EYfvH4wlKyI.mp4
+Poulenc, Francis, 10 Improvisations, FP 63, N7My0IW6DJ8	106.33s	6380f	24113559B	2026-11-10T15:42:55.495209+00:00	outputs/run_2026-11-10_130742/mp4/Poulenc, Francis, 10 Improvisations, FP 63, N7My0IW6DJ8.mp4
+Satie, Erik, Chanson Hongroise, XEIjqkBPw-c	106.81s	6409f	26758372B	2026-11-10T15:57:30.713039+00:00	outputs/run_2026-11-10_130742/mp4/Satie, Erik, Chanson Hongroise, XEIjqkBPw-c.mp4
+Bergé, Irénée, Andante pathétique, rm-TBiAMu8w	107.01s	6421f	23230283B	2026-11-10T16:12:03.436068+00:00	outputs/run_2026-11-10_130742/mp4/Bergé, Irénée, Andante pathétique, rm-TBiAMu8w.mp4
+Souto, Eduardo, Como há de ser_, KB64WhGKuzI	107.40s	6444f	28859139B	2026-11-10T16:26:37.533833+00:00	outputs/run_2026-11-10_130742/mp4/Souto, Eduardo, Como há de ser_, KB64WhGKuzI.mp4
+Aubert, Louis, Suite brève, Op.6, 0gmbeerN5IM	107.94s	6476f	27632367B	2026-11-10T16:41:27.951629+00:00	outputs/run_2026-11-10_130742/mp4/Aubert, Louis, Suite brève, Op.6, 0gmbeerN5IM.mp4
+Kalinnikov, Vasily, Chanson triste, ovLu0ddJhEY	107.98s	6479f	23651552B	2026-11-10T16:56:17.623322+00:00	outputs/run_2026-11-10_130742/mp4/Kalinnikov, Vasily, Chanson triste, ovLu0ddJhEY.mp4
+Cluzeau Mortet, Luis, Ensueño, OSBtMaBqyTI	108.56s	6514f	26055369B	2026-11-10T17:11:17.099923+00:00	outputs/run_2026-11-10_130742/mp4/Cluzeau Mortet, Luis, Ensueño, OSBtMaBqyTI.mp4
+Villoldo, Ángel Gregorio, Prendéte del brazo, nena_, RfAo4XhnLa8	108.77s	6526f	28776325B	2026-11-10T17:26:01.639826+00:00	outputs/run_2026-11-10_130742/mp4/Villoldo, Ángel Gregorio, Prendéte del brazo, nena_, RfAo4XhnLa8.mp4
+Victoria, Tomás Luis de, Rex gloriose martyrum, maONEilCWzw	109.02s	6541f	21308360B	2026-11-10T17:40:41.893717+00:00	outputs/run_2026-11-10_130742/mp4/Victoria, Tomás Luis de, Rex gloriose martyrum, maONEilCWzw.mp4
+Casella, Alfredo, Cocktail_s Dance, SI1zKF03MaY	109.60s	6576f	29439908B	2026-11-10T17:55:23.279629+00:00	outputs/run_2026-11-10_130742/mp4/Casella, Alfredo, Cocktail_s Dance, SI1zKF03MaY.mp4

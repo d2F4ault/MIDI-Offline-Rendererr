@@ -188,3 +188,75 @@
 | `run_2026-10-05_180230` | MP4 Video | `Scriabin, Aleksandr, Canon in D minor, Fi9lXB4GSOA.mp4` | 16.55 MB | 2026-10-24 13:09:57 |
 
 ---
+
+## Maintenance Session: 2026-11-10 13:07:42 UTC
+
+- **Reason**: Storage preservation before new manual batch render
+- **Runs Purged**: `run_2026-10-24_131223`
+- **Total Assets Removed**: 60 (30 MP4 videos, 30 MIDIs)
+- **Storage Space Reclaimed**: 674.79 MB (707,571,329 bytes)
+
+| Run Folder | Asset Type | Filename | Size (MB) | Rendered Date |
+|---|---|---|---|---|
+| `run_2026-10-24_131223` | MIDI File | `Bedoya, Harold, Acuarela Jürgen, foGItDShHyk.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Hillemacher, Lucien Joseph Edouard, 20 Pièces nouvelles (Hillemacher, Paul Joseph Guillaume), f5BEw1ZSUcw.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Lotti, Antonio, Tanto è ver che neo verno, pNFPV-Zm4io.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Tinel, Jef, Het angelus, gLqDkpTGnH8.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Alyabyev, Aleksandr, Farewell to the Nightingale, 4Oj1I6HzcbI.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `La Rue, Pierre de, Vexilla regis prodeunt, N2dvWZKqgME.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Hanson, Howard, Clog Dance, V2kRWdgxEp4.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Kreutzer, Léon, Piano Sonata, Op.2 No.2, 8VTt3kLE8Aw.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Chaminade, Cécile, Album des enfants - 2ème série, Op.126, RZAX8eBgKcQ.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Farrenc, Louise, 25 Etudes faciles, Op.50, aMzqFzDExOc.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Turina, Joaquín, El Circo, Op.68, UtnKIvFWiuU.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Scarlatti, Alessandro, Spanish Folies, DQqQcjwb9MU.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Novák, Vítězslav, Bagatelles, Op.5, lD8KOiuEa64.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Merino Martínez, Aitor, Gioventú, ZNtZL06KHGM.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Bach, Johann Sebastian, Invention in D major, BWV 774, whfkzyoRau8.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Strelezki, Anton, Bon voyage, j5oc9ljCcc0.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Bowman, Euday L., Tipperary Blues, 4VA1ftDk6zs.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Mozart, Wolfgang Amadeus, Minuet in F major, K.4, HwxNF9Hmz_s.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Delius, Frederick, Dance for Harpsichord, uA1p5NN24Io.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Tinel, Jef, Als de zonne daalt, 7vZSaw_sO2Y.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Kalafati, Vasily, 5 Preludes, Op.7, TJpO8IJmU0w.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Zierau, Fritz, Moment musical, q8vY8BXHjck.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Czerny, Carl, Das moderne Klavierspiel, Op.837, 9YJlw-o7DUM.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Szymanowska, Maria Agata, 4 Preludes, 4K4eOyPxwnQ.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Rebikov, Vladimir, Les immortelles, n-5IV0S7CdA.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Hallé, Charles, Dämmerungs-Gedanken, Op.7, qXweW_rDYII.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Sowinski, Albert, 12 Études mélodiques, Op.124, zA8EbqIxqmI.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Nietzsche, Friedrich, Ungarischer Marsch, 10jouGWqGmM.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Schubert, Camille, La rose de Palerme, Op.232, QvT_6K1ynpc.mid` | 0.01 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MIDI File | `Farnaby, Giles, Tower Hill, FVB 245, sUR44UUADQk.mid` | 0.00 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Chaminade, Cécile, Album des enfants - 2ème série, Op.126, RZAX8eBgKcQ.mp4` | 19.11 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Lotti, Antonio, Tanto è ver che neo verno, pNFPV-Zm4io.mp4` | 22.50 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Turina, Joaquín, El Circo, Op.68, UtnKIvFWiuU.mp4` | 21.16 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Tinel, Jef, Het angelus, gLqDkpTGnH8.mp4` | 20.21 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Sowinski, Albert, 12 Études mélodiques, Op.124, zA8EbqIxqmI.mp4` | 22.09 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Tinel, Jef, Als de zonne daalt, 7vZSaw_sO2Y.mp4` | 15.87 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Bach, Johann Sebastian, Invention in D major, BWV 774, whfkzyoRau8.mp4` | 18.56 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Czerny, Carl, Das moderne Klavierspiel, Op.837, 9YJlw-o7DUM.mp4` | 31.50 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Hillemacher, Lucien Joseph Edouard, 20 Pièces nouvelles (Hillemacher, Paul Joseph Guillaume), f5BEw1ZSUcw.mp4` | 22.75 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Scarlatti, Alessandro, Spanish Folies, DQqQcjwb9MU.mp4` | 22.00 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Farrenc, Louise, 25 Etudes faciles, Op.50, aMzqFzDExOc.mp4` | 23.05 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Novák, Vítězslav, Bagatelles, Op.5, lD8KOiuEa64.mp4` | 25.18 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Merino Martínez, Aitor, Gioventú, ZNtZL06KHGM.mp4` | 27.40 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Strelezki, Anton, Bon voyage, j5oc9ljCcc0.mp4` | 26.23 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Hanson, Howard, Clog Dance, V2kRWdgxEp4.mp4` | 27.09 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `La Rue, Pierre de, Vexilla regis prodeunt, N2dvWZKqgME.mp4` | 18.40 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Mozart, Wolfgang Amadeus, Minuet in F major, K.4, HwxNF9Hmz_s.mp4` | 16.39 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Nietzsche, Friedrich, Ungarischer Marsch, 10jouGWqGmM.mp4` | 23.27 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Kreutzer, Léon, Piano Sonata, Op.2 No.2, 8VTt3kLE8Aw.mp4` | 23.91 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Bedoya, Harold, Acuarela Jürgen, foGItDShHyk.mp4` | 16.50 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Schubert, Camille, La rose de Palerme, Op.232, QvT_6K1ynpc.mp4` | 24.25 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Szymanowska, Maria Agata, 4 Preludes, 4K4eOyPxwnQ.mp4` | 21.82 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Zierau, Fritz, Moment musical, q8vY8BXHjck.mp4` | 24.74 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Rebikov, Vladimir, Les immortelles, n-5IV0S7CdA.mp4` | 21.05 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Kalafati, Vasily, 5 Preludes, Op.7, TJpO8IJmU0w.mp4` | 21.36 MB | 2026-11-10 13:06:54 |
+| `run_2026-10-24_131223` | MP4 Video | `Alyabyev, Aleksandr, Farewell to the Nightingale, 4Oj1I6HzcbI.mp4` | 19.94 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Bowman, Euday L., Tipperary Blues, 4VA1ftDk6zs.mp4` | 31.28 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Delius, Frederick, Dance for Harpsichord, uA1p5NN24Io.mp4` | 27.18 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Hallé, Charles, Dämmerungs-Gedanken, Op.7, qXweW_rDYII.mp4` | 22.11 MB | 2026-11-10 13:06:53 |
+| `run_2026-10-24_131223` | MP4 Video | `Farnaby, Giles, Tower Hill, FVB 245, sUR44UUADQk.mp4` | 17.71 MB | 2026-11-10 13:06:53 |
+
+---

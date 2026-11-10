@@ -159,3 +159,63 @@ cleanup_timestamp_utc,run_folder,file_type,filename,size_bytes,size_mb,rendered_
 2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Poulenc, Francis, Feuillets d_album, FP 68, L5tnc8sIpf0.mp4,18407925,17.56,2026-10-24 13:09:57,storage_preservation_new_batch
 2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Fux, Johann Joseph, Domine fac mecum misericordiam, K.155, 4cpfH60vChY.mp4,22225509,21.20,2026-10-24 13:09:57,storage_preservation_new_batch
 2026-10-24T13:12:23.417515+00:00,run_2026-10-05_180230,MP4 Video,Scriabin, Aleksandr, Canon in D minor, Fi9lXB4GSOA.mp4,17356853,16.55,2026-10-24 13:09:57,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Bedoya, Harold, Acuarela Jürgen, foGItDShHyk.mid,1258,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Hillemacher, Lucien Joseph Edouard, 20 Pièces nouvelles (Hillemacher, Paul Joseph Guillaume), f5BEw1ZSUcw.mid,5895,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Lotti, Antonio, Tanto è ver che neo verno, pNFPV-Zm4io.mid,5185,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Tinel, Jef, Het angelus, gLqDkpTGnH8.mid,4630,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Alyabyev, Aleksandr, Farewell to the Nightingale, 4Oj1I6HzcbI.mid,4052,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,La Rue, Pierre de, Vexilla regis prodeunt, N2dvWZKqgME.mid,3205,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Hanson, Howard, Clog Dance, V2kRWdgxEp4.mid,9306,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Kreutzer, Léon, Piano Sonata, Op.2 No.2, 8VTt3kLE8Aw.mid,6895,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Chaminade, Cécile, Album des enfants - 2ème série, Op.126, RZAX8eBgKcQ.mid,3910,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Farrenc, Louise, 25 Etudes faciles, Op.50, aMzqFzDExOc.mid,4592,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Turina, Joaquín, El Circo, Op.68, UtnKIvFWiuU.mid,5194,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Scarlatti, Alessandro, Spanish Folies, DQqQcjwb9MU.mid,5367,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Novák, Vítězslav, Bagatelles, Op.5, lD8KOiuEa64.mid,6925,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Merino Martínez, Aitor, Gioventú, ZNtZL06KHGM.mid,7144,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Bach, Johann Sebastian, Invention in D major, BWV 774, whfkzyoRau8.mid,3749,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Strelezki, Anton, Bon voyage, j5oc9ljCcc0.mid,7987,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Bowman, Euday L., Tipperary Blues, 4VA1ftDk6zs.mid,9168,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Mozart, Wolfgang Amadeus, Minuet in F major, K.4, HwxNF9Hmz_s.mid,2814,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Delius, Frederick, Dance for Harpsichord, uA1p5NN24Io.mid,8135,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Tinel, Jef, Als de zonne daalt, 7vZSaw_sO2Y.mid,1928,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Kalafati, Vasily, 5 Preludes, Op.7, TJpO8IJmU0w.mid,5202,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Zierau, Fritz, Moment musical, q8vY8BXHjck.mid,6449,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Czerny, Carl, Das moderne Klavierspiel, Op.837, 9YJlw-o7DUM.mid,10674,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Szymanowska, Maria Agata, 4 Preludes, 4K4eOyPxwnQ.mid,6357,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Rebikov, Vladimir, Les immortelles, n-5IV0S7CdA.mid,4580,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Hallé, Charles, Dämmerungs-Gedanken, Op.7, qXweW_rDYII.mid,6014,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Sowinski, Albert, 12 Études mélodiques, Op.124, zA8EbqIxqmI.mid,5883,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Nietzsche, Friedrich, Ungarischer Marsch, 10jouGWqGmM.mid,5921,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Schubert, Camille, La rose de Palerme, Op.232, QvT_6K1ynpc.mid,8336,0.01,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MIDI File,Farnaby, Giles, Tower Hill, FVB 245, sUR44UUADQk.mid,2219,0.00,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Chaminade, Cécile, Album des enfants - 2ème série, Op.126, RZAX8eBgKcQ.mp4,20040569,19.11,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Lotti, Antonio, Tanto è ver che neo verno, pNFPV-Zm4io.mp4,23597246,22.50,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Turina, Joaquín, El Circo, Op.68, UtnKIvFWiuU.mp4,22185497,21.16,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Tinel, Jef, Het angelus, gLqDkpTGnH8.mp4,21190784,20.21,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Sowinski, Albert, 12 Études mélodiques, Op.124, zA8EbqIxqmI.mp4,23164222,22.09,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Tinel, Jef, Als de zonne daalt, 7vZSaw_sO2Y.mp4,16638526,15.87,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Bach, Johann Sebastian, Invention in D major, BWV 774, whfkzyoRau8.mp4,19463856,18.56,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Czerny, Carl, Das moderne Klavierspiel, Op.837, 9YJlw-o7DUM.mp4,33027159,31.50,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Hillemacher, Lucien Joseph Edouard, 20 Pièces nouvelles (Hillemacher, Paul Joseph Guillaume), f5BEw1ZSUcw.mp4,23856242,22.75,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Scarlatti, Alessandro, Spanish Folies, DQqQcjwb9MU.mp4,23069475,22.00,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Farrenc, Louise, 25 Etudes faciles, Op.50, aMzqFzDExOc.mp4,24171253,23.05,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Novák, Vítězslav, Bagatelles, Op.5, lD8KOiuEa64.mp4,26404416,25.18,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Merino Martínez, Aitor, Gioventú, ZNtZL06KHGM.mp4,28734420,27.40,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Strelezki, Anton, Bon voyage, j5oc9ljCcc0.mp4,27503446,26.23,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Hanson, Howard, Clog Dance, V2kRWdgxEp4.mp4,28409064,27.09,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,La Rue, Pierre de, Vexilla regis prodeunt, N2dvWZKqgME.mp4,19296203,18.40,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Mozart, Wolfgang Amadeus, Minuet in F major, K.4, HwxNF9Hmz_s.mp4,17191259,16.39,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Nietzsche, Friedrich, Ungarischer Marsch, 10jouGWqGmM.mp4,24404941,23.27,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Kreutzer, Léon, Piano Sonata, Op.2 No.2, 8VTt3kLE8Aw.mp4,25069490,23.91,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Bedoya, Harold, Acuarela Jürgen, foGItDShHyk.mp4,17303407,16.50,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Schubert, Camille, La rose de Palerme, Op.232, QvT_6K1ynpc.mp4,25426795,24.25,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Szymanowska, Maria Agata, 4 Preludes, 4K4eOyPxwnQ.mp4,22883056,21.82,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Zierau, Fritz, Moment musical, q8vY8BXHjck.mp4,25941656,24.74,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Rebikov, Vladimir, Les immortelles, n-5IV0S7CdA.mp4,22074879,21.05,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Kalafati, Vasily, 5 Preludes, Op.7, TJpO8IJmU0w.mp4,22397226,21.36,2026-11-10 13:06:54,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Alyabyev, Aleksandr, Farewell to the Nightingale, 4Oj1I6HzcbI.mp4,20905125,19.94,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Bowman, Euday L., Tipperary Blues, 4VA1ftDk6zs.mp4,32797920,31.28,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Delius, Frederick, Dance for Harpsichord, uA1p5NN24Io.mp4,28504261,27.18,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Hallé, Charles, Dämmerungs-Gedanken, Op.7, qXweW_rDYII.mp4,23180321,22.11,2026-11-10 13:06:53,storage_preservation_new_batch
+2026-11-10T13:07:42.702655+00:00,run_2026-10-24_131223,MP4 Video,Farnaby, Giles, Tower Hill, FVB 245, sUR44UUADQk.mp4,18569641,17.71,2026-11-10 13:06:53,storage_preservation_new_batch
